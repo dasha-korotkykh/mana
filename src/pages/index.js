@@ -1,5 +1,5 @@
 import React from "react";
-import { SEO, Header, Footer, Case, SlackMessage, FacebookMessage } from "../components";
+import { SEO, Header, Footer, Case, Caption, SlackMessage, FacebookMessage } from "../components";
 import invitationCardSrc from "../assets/images/unsorted/invitation-card.png";
 import {
   youAvatar,
@@ -55,12 +55,14 @@ const Index = () => (
                   <div><strong>— Hey</strong>, <span style={{ fontWeight: 600 }}>привіт</span>, привет <span className="waving-hand">👋</span>! Welcome!</div>
                   <div>Starting July 1st 2019 we're launching a new recognition and rewards initiative codenamed "Mana" that's based on Bonusly.</div>
                   <div>With Bonusly, everyone in your organization can publicly recognize everyone else by giving small bonuses that add up to meaningful rewards.</div>
-
+                </div>
+                <div>
                   <div class="avatar-wrapper">
                     <object class="avatar-object" data={dashaKorotkykhRoundedAvatar} role="img" aria-label="Dasha Korotkykh"></object>
                   </div>
                   <FacebookMessage>
-                    <strong>— Hey</strong>, <span style={{ fontWeight: 600 }}>привіт</span>, привет <span className="waving-hand">👋</span>!
+                    <strong>— Hey</strong>, <span style={{ fontWeight: 600 }}>привіт</span>, привет <span className="waving-hand">👋</span>! Starting July 1st 2019 we're launching a new recognition and rewards initiative codenamed "Mana" that's based on Bonusly.
+With Bonusly, everyone in your organization can publicly recognize everyone else by giving small bonuses that add up to meaningful rewards.
                   </FacebookMessage>
                 </div>
                 <br />
@@ -121,41 +123,33 @@ const Index = () => (
                 <h3>Giving a great bonus can help make Bonusly even more fun and effective. Here are a few tips to keep in mind when writing bonuses to make sure that they contribute to a positive and healthy culture.</h3>
               </div>
             </div>
-            <div className="hero hero-lg">
-              <div className="hero-body">
-                <Case id="case-1" number="1" name={<span>Beautiful eyes <sup style={{ color: "lightgrey" }}><small><em>mediocre tan</em></small></sup></span>} difficulty="Well, it depends." objectives="Compliment appearance — new haircut, tattoo, bracelet, jeans, etc." />
-                <SlackMessage
-                  senderId="dasha-korotkykh"
-                  senderName="Dasha Korotkykh"
-                  senderAvatarUrl={dashaKorotkykhAvatar}
-                  reactions={[
-                    { emoji: "💪", count: 13 },
-                    { emoji: "🥇", count: 9 },
-                    { emoji: "🎮", count: 7 },
-                    { emoji: "💀", count: 12 },
-                    { emoji: "😤", count: 11 },
-                    { emoji: "🐲", count: 5 }
-                  ]}
-                  replies={[
-                    { name: "Alexandr Tovmach", avatarUrl: irynaShvetsAvatar },
-                    { name: "Alyona Rapova", avatarUrl: georgeBarvinokAvatar },
-                    { name: "Artem Manukian", avatarUrl: galynaMakogoniukAvatar },
-                    { name: "Oleg Chulanovskyi", avatarUrl: orestHapaliakAvatar },
-                    { name: "Yuriy Stetsula", avatarUrl: vadymDrybasAvatar },
-                    { name: "Andrii Karun", avatarUrl: yuriiOstapchukAvatar },
-                    { name: "Denis Beketsky", avatarUrl: bohdanPelekhAvatar }
-                  ]}
-                >
-                  <p>/give +10 @ilya.kotlov & @volodymyr.kondratenko for the deepest and most beautiful eyes I have ever seen #загарніочі.</p>
-                </SlackMessage>
-              </div>
-            </div>
-            <div className="hero hero-lg">
-              <div className="hero-body">Case 2</div>
-            </div>
-            <div className="hero hero-lg">
-              <div className="hero-body">Case 3</div>
-            </div>
+            <Case>
+              <Caption id="case-1" number="1" name={<span>Beautiful eyes <sup style={{ color: "lightgrey" }}><small><em>mediocre tan</em></small></sup></span>} difficulty="Well, it depends." objectives="Compliment appearance — new haircut, tattoo, bracelet, jeans, etc." />
+              <SlackMessage
+                senderId="dasha-korotkykh"
+                senderName="Dasha Korotkykh"
+                senderAvatarUrl={dashaKorotkykhAvatar}
+                reactions={[
+                  { emoji: "💪", count: 13 },
+                  { emoji: "🥇", count: 9 },
+                  { emoji: "🎮", count: 7 },
+                  { emoji: "💀", count: 12 },
+                  { emoji: "😤", count: 11 },
+                  { emoji: "🐲", count: 5 }
+                ]}
+                replies={[
+                  { name: "Iryna Shvets", avatarUrl: irynaShvetsAvatar },
+                  { name: "George Barvinok", avatarUrl: georgeBarvinokAvatar },
+                  { name: "Galyna Makogoniuk", avatarUrl: galynaMakogoniukAvatar },
+                  { name: "Orest Hapaliak", avatarUrl: orestHapaliakAvatar },
+                  { name: "Vadym Drybas", avatarUrl: vadymDrybasAvatar },
+                  { name: "Yurii Ostapchuk", avatarUrl: yuriiOstapchukAvatar },
+                  { name: "Bohdan Pelekh", avatarUrl: bohdanPelekhAvatar }
+                ]}
+              >
+                <p>/give +10 @ilya.kotlov & @volodymyr.kondratenko for the deepest and most beautiful eyes I have ever seen #загарніочі.</p>
+              </SlackMessage>
+            </Case>
           </article>
           <Footer />
         </div>

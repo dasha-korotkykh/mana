@@ -1,25 +1,25 @@
-.case {
+.caption {
   margin-top: 2em;
   margin-bottom: 1em;
 }
-.case .case__info {
+.caption .caption__info {
   display: flex;
 }
-.case .case__number {
+.caption .caption__number {
   flex: 1 0 auto;
 }
-.case .case__name {
+.caption .caption__name {
   font-weight: bold;
   margin-bottom: 0;
 }
-.case .case__meta {
+.caption .caption__meta {
   display: inline-block;
 }
-.case .case__back-to-top {
+.caption .caption__back-to-top {
   display: inline-flex;
   align-items: center;
 }
-.case .case__back-to-top > svg {
+.caption .caption__back-to-top > svg {
   height: 1em;
   margin-right: 0.25em;
 }
