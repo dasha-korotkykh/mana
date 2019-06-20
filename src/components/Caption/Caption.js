@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLongArrowUp } from "@fortawesome/pro-regular-svg-icons";
+import { faLongArrowUp, faLongArrowDown } from "@fortawesome/pro-regular-svg-icons";
 import "./Caption.css";
 
 const Caption = ({
@@ -13,7 +13,8 @@ const Caption = ({
     case: caseLabel = "Case",
     difficulty: difficultyLabel = "Difficulty:",
     objectives: objectivesLabel = "Objectives:",
-    backToTop: backToTopLabel = "back to top"
+    previous: previousLabel = "previous",
+    next: nextLabel = "next"
   },
   ...rest
 }) => (
@@ -22,8 +23,11 @@ const Caption = ({
       <em className="caption__number">
         {caseLabel} {number}
       </em>
-      <a className="caption__back-to-top" href="#table-of-contents">
-        <FontAwesomeIcon icon={faLongArrowUp} /> {backToTopLabel}
+      <a className="caption__previous" href="#">
+        <FontAwesomeIcon icon={faLongArrowUp} /> {previousLabel}
+      </a>
+      <a className="caption__next" href="#">
+        {nextLabel} <FontAwesomeIcon icon={faLongArrowDown} />
       </a>
     </small>
     <h3 className="caption__name">
@@ -43,7 +47,8 @@ Caption.propTypes = {
   objectives: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
   labels: PropTypes.shape({
     case: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
-    backToTop: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
+    previous: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
+    next: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
     difficulty: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
     objectives: PropTypes.oneOfType([PropTypes.string, PropTypes.object])
   })
@@ -52,7 +57,8 @@ Caption.propTypes = {
 Caption.defaultProps = {
   labels: {
     case: "Case",
-    backToTop: "back to top",
+    previous: "previous",
+    next: "next",
     difficulty: "Difficulty:",
     objectives: "Objectives:"
   }

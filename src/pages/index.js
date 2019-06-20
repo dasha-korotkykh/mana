@@ -1,6 +1,5 @@
 import React from "react";
-import { SEO, Header, Footer, Case, Caption, SlackMessage, FacebookMessage } from "../components";
-import invitationCardSrc from "../assets/images/unsorted/invitation-card.png";
+import { SEO, Header, Footer, Case, Caption, SlackMessage, FacebookMessage, CannotEatThankYouWithBread } from "../components";
 import {
   youAvatar,
   alecMarinAvatar,
@@ -46,13 +45,19 @@ const Index = () => (
           <article className="content">
             <div className="hero">
               <div className="hero-body">
-                <div className="invitation-double">
-                  <span>А что если бы</span>
-                  <span>спасибо</span>
-                  <span>можно было намазать на хлеб?</span>
-                </div>
-                <img className="invitation-card" src={invitationCardSrc} alt="А что если бы спасибо можно было намазать на хлеб?" />
                 <div className="text-center">
+                  <h1 className="title">
+                    <span className="what-if">А что если бы</span>
+                    <span className="thank-you">спасибо</span>
+                    <span className="could-be-eaten-with-bread">можно было намазать на хлеб?<sup className="text-gray"><strong>*</strong></sup></span>
+                  </h1>
+                  <h5 className="text-gray"><sup><strong style={{ fontSize: "1.5em", lineHeight: 0.5 }}>*</strong></sup>Russian saying <strong><CannotEatThankYouWithBread /></strong> means <strong>"You cannot eat "thank you" with bread"</strong> or <strong>"Can't put thanks in your pocket (or in the bank)"</strong>. So... <em>what if you could?</em></h5>
+                </div>
+              </div>
+            </div>
+            <div className="hero">
+              <div className="hero-body">
+                <div>
                   <div class="avatar-wrapper">
                     <object class="avatar-object" data={juliaTitovaRoundedAvatar} role="img" aria-label="Dasha Korotkykh"></object>
                   </div>
@@ -201,12 +206,12 @@ const Index = () => (
                 senderName="Dasha Korotkykh"
                 senderAvatarUrl={dashaKorotkykhAvatar}
                 reactions={[
-                  { emoji: "💪", count: 13 },
-                  { emoji: "🥇", count: 9 },
-                  { emoji: "🎮", count: 7 },
-                  { emoji: "💀", count: 12 },
-                  { emoji: "😤", count: 11 },
-                  { emoji: "🐲", count: 5 }
+                  { emoji: "😊", count: 13 },
+                  { emoji: "🤗", count: 9 },
+                  { emoji: "🤭", count: 7 },
+                  { emoji: "👀", count: 12 },
+                  { emoji: "🔥", count: 11 },
+                  { emoji: "😛", count: 5 }
                 ]}
                 replies={[
                   { name: "Iryna Shvets", avatarUrl: irynaShvetsAvatar },
@@ -218,7 +223,7 @@ const Index = () => (
                   { name: "Bohdan Pelekh", avatarUrl: bohdanPelekhAvatar }
                 ]}
               >
-                <p>/give +10 @ilya.kotlov & @volodymyr.kondratenko for the deepest and most beautiful eyes I have ever seen #загарніочі.</p>
+                <div><strong>/give +10</strong> <span className="bg-secondary">@ilya.kotlov</span> & <span className="bg-secondary">@volodymyr.kondratenko</span> for the deepest and most beautiful eyes I have ever seen in my entire life, no kidding <span className="text-primary"><strong>#загарніочі</strong></span> <span className="text-primary"><strong>#загарнеочень</strong></span></div>
               </SlackMessage>
             </Case>
           </article>
