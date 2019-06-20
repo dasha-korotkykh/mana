@@ -1,5 +1,5 @@
 import React from "react";
-import { SEO, Header, Footer, Case, SlackMessage, FacebookMessage } from "../components";
+import { SEO, Header, Footer, Case, Caption, SlackMessage, FacebookMessage } from "../components";
 import invitationCardSrc from "../assets/images/unsorted/invitation-card.png";
 import {
   youAvatar,
@@ -31,6 +31,7 @@ import {
   yuriiOstapchukAvatar
 } from "../assets/images/avatars/slack-squared";
 import {
+  juliaTitovaAvatar as juliaTitovaRoundedAvatar,
   dashaKorotkykhAvatar as dashaKorotkykhRoundedAvatar
 } from "../assets/images/avatars/intro-rounded";
 import "./index.scss";
@@ -52,9 +53,8 @@ const Index = () => (
                 </div>
                 <img className="invitation-card" src={invitationCardSrc} alt="А что если бы спасибо можно было намазать на хлеб?" />
                 <div className="text-center">
-
                   <div class="avatar-wrapper">
-                    <object class="avatar-object" data={dashaKorotkykhRoundedAvatar} role="img" aria-label="Dasha Korotkykh"></object>
+                    <object class="avatar-object" data={juliaTitovaRoundedAvatar} role="img" aria-label="Dasha Korotkykh"></object>
                   </div>
                   <FacebookMessage>
                     <strong>— Hey</strong>, <span style={{ fontWeight: 600 }}>привіт</span>, привет <span className="waving-hand">👋</span>! Welcome!
@@ -127,41 +127,33 @@ const Index = () => (
                 <h1>How to give a great bonus<sup><span style={{ fontSize: "0.5em", fontWeight: 700, zIndex: 1 }}><a href="https://help.bonus.ly/articles/1165561-how-to-give-a-great-bonus">[1]</a></span></sup> at Ricker Lyman Robotic</h1>
                 </div>
             </div>
-            <div className="hero hero-lg">
-              <div className="hero-body">
-                <Case id="case-1" number="1" name={<span>Beautiful eyes <sup style={{ color: "lightgrey" }}><small><em>mediocre tan</em></small></sup></span>} difficulty="Well, it depends." objectives="Compliment appearance — new haircut, tattoo, bracelet, jeans, etc." />
-                <SlackMessage
-                  senderId="dasha-korotkykh"
-                  senderName="Dasha Korotkykh"
-                  senderAvatarUrl={dashaKorotkykhAvatar}
-                  reactions={[
-                    { emoji: "💪", count: 13 },
-                    { emoji: "🥇", count: 9 },
-                    { emoji: "🎮", count: 7 },
-                    { emoji: "💀", count: 12 },
-                    { emoji: "😤", count: 11 },
-                    { emoji: "🐲", count: 5 }
-                  ]}
-                  replies={[
-                    { name: "Alexandr Tovmach", avatarUrl: irynaShvetsAvatar },
-                    { name: "Alyona Rapova", avatarUrl: georgeBarvinokAvatar },
-                    { name: "Artem Manukian", avatarUrl: galynaMakogoniukAvatar },
-                    { name: "Oleg Chulanovskyi", avatarUrl: orestHapaliakAvatar },
-                    { name: "Yuriy Stetsula", avatarUrl: vadymDrybasAvatar },
-                    { name: "Andrii Karun", avatarUrl: yuriiOstapchukAvatar },
-                    { name: "Denis Beketsky", avatarUrl: bohdanPelekhAvatar }
-                  ]}
-                >
-                  <p>/give +10 @ilya.kotlov & @volodymyr.kondratenko for the deepest and most beautiful eyes I have ever seen #загарніочі.</p>
-                </SlackMessage>
-              </div>
-            </div>
-            <div className="hero hero-lg">
-              <div className="hero-body">Case 2</div>
-            </div>
-            <div className="hero hero-lg">
-              <div className="hero-body">Case 3</div>
-            </div>
+            <Case>
+              <Caption id="case-1" number="1" name={<span>Beautiful eyes <sup style={{ color: "lightgrey" }}><small><em>mediocre tan</em></small></sup></span>} difficulty="Well, it depends." objectives="Compliment appearance — new haircut, tattoo, bracelet, jeans, etc." />
+              <SlackMessage
+                senderId="dasha-korotkykh"
+                senderName="Dasha Korotkykh"
+                senderAvatarUrl={dashaKorotkykhAvatar}
+                reactions={[
+                  { emoji: "💪", count: 13 },
+                  { emoji: "🥇", count: 9 },
+                  { emoji: "🎮", count: 7 },
+                  { emoji: "💀", count: 12 },
+                  { emoji: "😤", count: 11 },
+                  { emoji: "🐲", count: 5 }
+                ]}
+                replies={[
+                  { name: "Iryna Shvets", avatarUrl: irynaShvetsAvatar },
+                  { name: "George Barvinok", avatarUrl: georgeBarvinokAvatar },
+                  { name: "Galyna Makogoniuk", avatarUrl: galynaMakogoniukAvatar },
+                  { name: "Orest Hapaliak", avatarUrl: orestHapaliakAvatar },
+                  { name: "Vadym Drybas", avatarUrl: vadymDrybasAvatar },
+                  { name: "Yurii Ostapchuk", avatarUrl: yuriiOstapchukAvatar },
+                  { name: "Bohdan Pelekh", avatarUrl: bohdanPelekhAvatar }
+                ]}
+              >
+                <p>/give +10 @ilya.kotlov & @volodymyr.kondratenko for the deepest and most beautiful eyes I have ever seen #загарніочі.</p>
+              </SlackMessage>
+            </Case>
           </article>
           <Footer />
         </div>

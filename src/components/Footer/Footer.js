@@ -1,17 +1,17 @@
 import React from "react";
 import "./Footer.css";
 
-const Footer = ({ author }) => (
+const Footer = () => (
   <footer className="hero hero-sm">
     <div className="navbar">
       <section className="navbar-section">
         <div className="text-gray">
-          Copyright © 2019 <strong>{author || "Contributors"}</strong>. All rights reserved.
+          Copyright © 2019 <strong>Ricker Lyman Robotic</strong>. All rights reserved.
         </div>
       </section>
       <section className="navbar-section">
         <div className="text-gray">
-          Made with 🧠🤲💻❤️
+          Made with ❤️
         </div>
       </section>
     </div>
