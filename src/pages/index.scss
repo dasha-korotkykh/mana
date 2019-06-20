@@ -18,33 +18,19 @@
   }
 }
 
-/* Invitation Double */
-.invitation-double {
-  background-color: #208ca4;
-  border-radius: 0.5em;
-  color: white;
-  padding: 5em;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 300;
+/* Title */
+.title {
   display: flex;
   flex-direction: column;
-  display: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5em;
+  line-height: 1.125em;
 }
-
-/* Invitation Card */
-.invitation-card {
-  width: 75%;
-  display: block;
-  border-radius: 0.5em;
-  margin: 0 auto 2em;
-  transition: all 0.2s linear;
-  box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.125);
-  cursor: pointer;
-  display: none;
+.title .what-if {
+  font-weight: 300;
 }
-.invitation-card:hover {
-  box-shadow: none;
+.title .thank-you {
+  font-weight: 900;
 }
 
 /* Panels */
