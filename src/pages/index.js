@@ -52,16 +52,21 @@ const Index = () => (
                 </div>
                 <img className="invitation-card" src={invitationCardSrc} alt="А что если бы спасибо можно было намазать на хлеб?" />
                 <div className="text-center">
-                  <div><strong>— Hey</strong>, <span style={{ fontWeight: 600 }}>привіт</span>, привет <span className="waving-hand">👋</span>! Welcome!</div>
-                  <div>Starting July 1st 2019 we're launching a new recognition and rewards initiative codenamed "Mana" that's based on Bonusly.</div>
-                  <div>With Bonusly, everyone in your organization can publicly recognize everyone else by giving small bonuses that add up to meaningful rewards.</div>
 
                   <div class="avatar-wrapper">
                     <object class="avatar-object" data={dashaKorotkykhRoundedAvatar} role="img" aria-label="Dasha Korotkykh"></object>
                   </div>
                   <FacebookMessage>
-                    <strong>— Hey</strong>, <span style={{ fontWeight: 600 }}>привіт</span>, привет <span className="waving-hand">👋</span>!
+                    <strong>— Hey</strong>, <span style={{ fontWeight: 600 }}>привіт</span>, привет <span className="waving-hand">👋</span>! Welcome!
+                    <br />
+                    The reason of you getting here is to hear that you are is <strong>awesome and incredible</strong> and we just really want you not only to know it but <strong>truly feel it</strong> as well.
                   </FacebookMessage>
+                    <div>
+                      Basically, that’s it <em>(yes, you can leave)</em>, but then wouldn’t it be nice to somehow keep telling it (and cheering each other up) beyond once-in-some-time gathering? 
+                    </div>
+                    <div>
+                      We gave it a thought and sought the aid of bonus.ly, a platform designed and used to exchange gratitude with virtual currency, which at any point could be exchanged for perks of one’s choice.
+                    </div>
                 </div>
                 <br />
                 <div className="columns">
@@ -70,7 +75,7 @@ const Index = () => (
                       <div class="panel-header">
                         <div className="panel-title">
                           <h6>
-                            <strong><span role="img" aria-label="rainbow">💩</span>Promote your mission</strong>
+                            <strong><span role="img" aria-label="rainbow">😤</span>Promote your mission</strong>
                             <span className="text-gray"><small>#1</small></span>
                           </h6>
                         </div>
@@ -100,7 +105,7 @@ const Index = () => (
                       <div class="panel-header">
                         <div className="panel-title">
                           <h6>
-                            <strong><span role="img" aria-label="rainbow">💩</span>Boost engagement</strong>
+                            <strong><span role="img" aria-label="rainbow">🚣‍</span>Boost engagement</strong>
                             <span className="text-gray"><small>#3</small></span>
                           </h6>
                         </div>
@@ -111,15 +116,16 @@ const Index = () => (
                     </div>
                   </div>
                 </div>
+                <div>Their website says many companies are happy using it, that’s a good thing.
+                  On the other hand, here at RLR we already have a pretty cool, engaged and coordinated team, is there any actual fun in integrating something like that?
+                </div>
               </div>
             </div>
             <div className="hero hero-lg">
               <div className="hero-body text-center">
                 <div>Let's talk a little bit about</div>
                 <h1>How to give a great bonus<sup><span style={{ fontSize: "0.5em", fontWeight: 700, zIndex: 1 }}><a href="https://help.bonus.ly/articles/1165561-how-to-give-a-great-bonus">[1]</a></span></sup> at Ricker Lyman Robotic</h1>
-                <h2>Giving great bonuses can help build a culture that values effort and performance over appearances.</h2>
-                <h3>Giving a great bonus can help make Bonusly even more fun and effective. Here are a few tips to keep in mind when writing bonuses to make sure that they contribute to a positive and healthy culture.</h3>
-              </div>
+                </div>
             </div>
             <div className="hero hero-lg">
               <div className="hero-body">
