@@ -31,6 +31,7 @@ import {
   yuriiOstapchukAvatar
 } from "../assets/images/avatars/slack-squared";
 import {
+  juliaTitovaAvatar as juliaTitovaRoundedAvatar,
   dashaKorotkykhAvatar as dashaKorotkykhRoundedAvatar
 } from "../assets/images/avatars/intro-rounded";
 import "./index.scss";
@@ -58,7 +59,7 @@ const Index = () => (
                 </div>
                 <div>
                   <div class="avatar-wrapper">
-                    <object class="avatar-object" data={dashaKorotkykhRoundedAvatar} role="img" aria-label="Dasha Korotkykh"></object>
+                    <object class="avatar-object" data={juliaTitovaRoundedAvatar} role="img" aria-label="Dasha Korotkykh"></object>
                   </div>
                   <FacebookMessage>
                     <strong>— Hey</strong>, <span style={{ fontWeight: 600 }}>привіт</span>, привет <span className="waving-hand">👋</span>! Starting July 1st 2019 we're launching a new recognition and rewards initiative codenamed "Mana" that's based on Bonusly.
