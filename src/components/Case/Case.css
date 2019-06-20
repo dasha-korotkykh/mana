@@ -1,0 +1,25 @@
+.case {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+.case .case__info {
+  display: flex;
+}
+.case .case__number {
+  flex: 1 0 auto;
+}
+.case .case__name {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.case .case__meta {
+  display: inline-block;
+}
+.case .case__back-to-top {
+  display: inline-flex;
+  align-items: center;
+}
+.case .case__back-to-top > svg {
+  height: 1em;
+  margin-right: 0.25em;
+}

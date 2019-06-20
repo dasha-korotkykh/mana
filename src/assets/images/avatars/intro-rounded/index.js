@@ -1,0 +1,1 @@
+export { default as dashaKorotkykhAvatar } from "./dasha-korotkykh.svg";

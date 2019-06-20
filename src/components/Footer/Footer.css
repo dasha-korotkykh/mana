@@ -1,0 +1,10 @@
+/* Spectre.css overrides */
+footer .navbar .navbar-section:first-child:not(:last-child) {
+  flex: 1 0 auto;
+  align-items: initial;
+}
+footer .navbar .navbar-section:not(:first-child):last-child {
+  flex: 0 0 auto;
+  align-items: initial;
+  justify-content: initial;
+}
