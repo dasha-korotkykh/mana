@@ -116,17 +116,84 @@ const Index = () => (
                     </div>
                   </div>
                 </div>
-                <div>Their website says many companies are happy using it, that’s a good thing.
-                  On the other hand, here at RLR we already have a pretty cool, engaged and coordinated team, is there any actual fun in integrating something like that?
+                <div>Their website says many companies are happy using it, that’s a good thing.<br />
+                  On the other hand, here at RLR we already have a pretty cool, engaged and coordinated team, is there any <strong>actual fun</strong> in integrating something like that?
                 </div>
               </div>
             </div>
             <div className="hero hero-lg">
               <div className="hero-body text-center">
-                <div>Let's talk a little bit about</div>
-                <h1>How to give a great bonus<sup><span style={{ fontSize: "0.5em", fontWeight: 700, zIndex: 1 }}><a href="https://help.bonus.ly/articles/1165561-how-to-give-a-great-bonus">[1]</a></span></sup> at Ricker Lyman Robotic</h1>
+                <h1>It could be tweaked.</h1>
+              </div>
+              <div>Suppose every month you would get paid not only with salary, but with a portion of mana.</div>
+              <div>🧙‍️ 💧✨💧✨💧✨💧✨💧✨💧✨💧✨💧✨💧✨💧✨💧✨💧✨💧✨💧✨💧✨💧✨</div>  
+              <FacebookMessage>
+              <div>Normally, <strong>mana</strong> is used to cast spells. 
+              <br />This specific one to spell <strong>thanks and thumbs-up</strong>. Yep, that’s all you can do with it: send out.</div>
+              </FacebookMessage>
+              <div>When you bind your blank mana with gratitude or inspiration or lolz and send in the direction of another person, they receive it as a bound mana.</div>
+              <div className="hero hero-lg">
+                <div className="hero-body text-center"></div>
+                  <h4>And here's what happened:</h4>
+                  <ul>
+                    <li>You have expressed yourself 🎉</li>
+                    <li>You have encouraged your peer 🤜🤛</li>
+                    <li>That lucky dude not only feels instantly better but can also use this bound <strong>mana</strong> <br />to get gear, loot and power-ups of his choice!🧰</li>
+                  </ul>
                 </div>
+              </div>  
+              <div className="hero hero-lg">
+                <div className="hero-body text-center">
+                  <h4>What kind of stuff can one get?<br />🥎🌶️⏱️🧦🙏🧯🧻💣</h4>
+                </div>
+              </div>
+                      
+            <div className="hero hero-lg">
+              <div className="hero-body text-center">
+                <h1>OK. How do I do that?</h1>
+              </div>  
             </div>
+                <ul>
+                  <li>Public channel called <strong>#bonusly</strong> is a Trading Exchange Market, Post Office and somewhat a flood chat, eventually</li>
+                  <li>Amount of your mana is visible in your profile</li>
+                  <li>Whenever you have an inspiration to throw some recognition at one of your RLR peers, just go to that channel, compose a spell like this:</li>
+                </ul>
+              <SlackMessage
+                senderId="dasha-korotkykh"
+                senderName="Dasha Korotkykh"
+                senderAvatarUrl={dashaKorotkykhAvatar}
+                reactions={[
+                  { emoji: "💪", count: 13 },
+                  { emoji: "🥇", count: 9 },
+                  { emoji: "🎮", count: 7 },
+                  { emoji: "💀", count: 12 },
+                  { emoji: "😤", count: 11 },
+                  { emoji: "🐲", count: 5 }
+                ]}
+                replies={[
+                  { name: "Iryna Shvets", avatarUrl: irynaShvetsAvatar },
+                  { name: "George Barvinok", avatarUrl: georgeBarvinokAvatar },
+                  { name: "Galyna Makogoniuk", avatarUrl: galynaMakogoniukAvatar },
+                  { name: "Orest Hapaliak", avatarUrl: orestHapaliakAvatar },
+                  { name: "Vadym Drybas", avatarUrl: vadymDrybasAvatar },
+                  { name: "Yurii Ostapchuk", avatarUrl: yuriiOstapchukAvatar },
+                  { name: "Bohdan Pelekh", avatarUrl: bohdanPelekhAvatar }
+                ]}
+              >
+                <p><strong>/give +5 @that_awesome_fella</strong> for <strong>tending extra time to our unit tests</strong> when we needed them the most. Here goes hashtag <strong>#staying-up-late</strong>.
+</p>
+              </SlackMessage>
+              
+
+
+            <div className="hero hero-lg">
+              <div className="hero-body text-center">
+                
+                <h1>How do we do that at Ricker Lyman Robotic?</h1>
+                <div>Let's talk a little bit about</div>
+              </div>
+            </div>
+
             <Case>
               <Caption id="case-1" number="1" name={<span>Beautiful eyes <sup style={{ color: "lightgrey" }}><small><em>mediocre tan</em></small></sup></span>} difficulty="Well, it depends." objectives="Compliment appearance — new haircut, tattoo, bracelet, jeans, etc." />
               <SlackMessage
