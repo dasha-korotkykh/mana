@@ -16,11 +16,14 @@ class CannotEatThankYouWithBread extends Component {
     const { source, children } = this.props;
     return (
       <span className="cant-eat-thank-you-with-bread">
-        <span onMouseEnter={this.play} onMouseLeave={this.pause}>
+        <span
+          // onMouseEnter={this.play}
+          // onMouseLeave={this.pause}
+        >
           {
             children || (
               <>
-                "<FontAwesomeIcon icon={faVolumeUp} /> Cпасибо на хлеб не намажешь"
+                "{/*<FontAwesomeIcon icon={faVolumeUp} /> */}Cпасибо на хлеб не намажешь"
               </>
             )
           }
