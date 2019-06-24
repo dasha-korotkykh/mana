@@ -74,6 +74,7 @@ const Index = () => (
                     </div>
                 </div>
                 <br />
+                <h4>Bonus.ly offers to:</h4>
                 <div className="columns">
                   <div className="column col-4">
                     <div class="panel">
@@ -136,7 +137,7 @@ const Index = () => (
               <div>Normally, <strong>mana</strong> is used to cast spells. 
               <br />This specific one to spell <strong>thanks and thumbs-up</strong>. Yep, that’s all you can do with it: send out.</div>
               </FacebookMessage>
-              <div>When you bind your blank mana with gratitude or inspiration or lolz and send in the direction of another person, they receive it as a bound mana.</div>
+              <div>When you bind your raw <strong>mana</strong> with gratitude or inspiration or lolz and send in the direction of another person, they receive it as a bound mana.</div>
               <div className="hero hero-lg">
                 <div className="hero-body text-center"></div>
                   <h4>And here's what happened:</h4>
@@ -149,7 +150,7 @@ const Index = () => (
               </div>  
               <div className="hero hero-lg">
                 <div className="hero-body text-center">
-                  <h4>What kind of stuff can one get?<br />🥎🌶️⏱️🧦🙏🧯🧻💣</h4>
+                  <h1>What kind of stuff can one get?<br />🥎🌶️⏱️🧦🙏🧯🧻💣</h1>
                 </div>
               </div>
                       
@@ -159,21 +160,19 @@ const Index = () => (
               </div>  
             </div>
                 <ul>
-                  <li>Public channel called <strong>#bonusly</strong> is a Trading Exchange Market, Post Office and somewhat a flood chat, eventually</li>
-                  <li>Amount of your mana is visible in your profile</li>
-                  <li>Whenever you have an inspiration to throw some recognition at one of your RLR peers, just go to that channel, compose a spell like this:</li>
+                  <li><strong>Bonus.ly platform</strong> is where you can see your <strong>mana</strong> points in your user profile, available rewards and their cost in points.</li>
+                  <li>Public channel called <a href="https://rickerlyman.slack.com/messages/CK7MBDXHU/"><strong>#bonusly</strong></a> is a Trading Exchange Market, Post Office and somewhat a flood chat</li>
+                  <li>Whenever you have an inspiration to throw some recognition at one of your RLR peers, just go to bonus.ly interface OR that channel and <strong>compose a spell</strong>:</li>
                 </ul>
               <SlackMessage
-                senderId="dasha-korotkykh"
-                senderName="Dasha Korotkykh"
-                senderAvatarUrl={dashaKorotkykhAvatar}
+                senderId="julia-titova"
+                senderName="Julia Titova"
+                senderAvatarUrl={juliaTitovaAvatar}
                 reactions={[
-                  { emoji: "💪", count: 13 },
-                  { emoji: "🥇", count: 9 },
-                  { emoji: "🎮", count: 7 },
-                  { emoji: "💀", count: 12 },
-                  { emoji: "😤", count: 11 },
-                  { emoji: "🐲", count: 5 }
+                  { emoji: "💪", count: 4 },
+                  { emoji: "🥇", count: 1 },
+                  { emoji: "😤", count: 5 },
+                  { emoji: "🐲", count: 2 }
                 ]}
                 replies={[
                   { name: "Iryna Shvets", avatarUrl: irynaShvetsAvatar },
@@ -194,38 +193,146 @@ const Index = () => (
             <div className="hero hero-lg">
               <div className="hero-body text-center">
                 
-                <h1>How do we do that at Ricker Lyman Robotic?</h1>
-                <div>Let's talk a little bit about</div>
+                <h1>Reasons to spend <strong>mana</strong> may vary:</h1>
               </div>
-            </div>
-
-            <Case>
+              {/*
+              <Case>
               <Caption id="case-1" number="1" name={<span>Beautiful eyes <sup style={{ color: "lightgrey" }}><small><em>mediocre tan</em></small></sup></span>} difficulty="Well, it depends." objectives="Compliment appearance — new haircut, tattoo, bracelet, jeans, etc." />
+              */}
               <SlackMessage
-                senderId="dasha-korotkykh"
-                senderName="Dasha Korotkykh"
-                senderAvatarUrl={dashaKorotkykhAvatar}
+                senderId="iryna-shvets"
+                senderName="Iryna Shvets"
+                senderAvatarUrl={irynaShvetsAvatar}
                 reactions={[
-                  { emoji: "😊", count: 13 },
-                  { emoji: "🤗", count: 9 },
-                  { emoji: "🤭", count: 7 },
-                  { emoji: "👀", count: 12 },
+                  { emoji: "🤭", count: 4 },
+                  { emoji: "🎅", count: 2 },
                   { emoji: "🔥", count: 11 },
-                  { emoji: "😛", count: 5 }
+                  { emoji: "😛", count: 1 }
                 ]}
                 replies={[
                   { name: "Iryna Shvets", avatarUrl: irynaShvetsAvatar },
-                  { name: "George Barvinok", avatarUrl: georgeBarvinokAvatar },
+                  { name: "Igor Gerasimow", avatarUrl: igorGerasimowAvatar },
                   { name: "Galyna Makogoniuk", avatarUrl: galynaMakogoniukAvatar },
+                  { name: "Orest Hapaliak", avatarUrl: orestHapaliakAvatar },
+                  { name: "Volodymyr Tysjak", avatarUrl: volodymyrTysjakAvatar },
+                  { name: "Yurii Ostapchuk", avatarUrl: yuriiOstapchukAvatar },
+                ]}
+              >
+                <div><strong>+3</strong> <span className="bg-secondary">@v.magora</span> for a fascinating new beard style <span className="text-primary"><strong>#breaking-news-this-just-in</strong></span> <span className="text-primary"><strong>#за-гарні-очі</strong></span> <span className="text-primary"><strong>#lacoste</strong></span></div>
+              </SlackMessage>
+            {/*</Case>
+
+            <Case>
+              
+              <Caption id="case-1" number="1" name={<span>Beautiful eyes <sup style={{ color: "lightgrey" }}><small><em>mediocre tan</em></small></sup></span>} difficulty="Well, it depends." objectives="Compliment appearance — new haircut, tattoo, bracelet, jeans, etc." />
+              */}
+              <SlackMessage
+                senderId="paul-lyman"
+                senderName="Paul Lyman"
+                senderAvatarUrl={paulLymanAvatar}
+                reactions={[
+                  { emoji: "😊", count: 1 },
+                  { emoji: "🤖", count: 5 },
+                  { emoji: "🐦", count: 1 },
+                  { emoji: "👀", count: 3 },
+                ]}
+                replies={[
+                  { name: "Kostya Lukyanenko", avatarUrl: kostyaLukyanenkoAvatar },
+                  { name: "George Barvinok", avatarUrl: georgeBarvinokAvatar },
+                  { name: "Volodymyr Kondratenko", avatarUrl: volodymyrKondratenkoAvatar },
+                ]}
+              >
+                <div><strong>+10</strong> <span className="bg-secondary">@a.sirak</span> for sharing handy articles on <span className="text-primary"><strong>#rlr-general-ua</strong></span>. Sharing is caring! 😁 <span className="text-primary"><strong>#thanks</strong></span></div>
+              </SlackMessage>
+             {/*</Case>*/}
+
+            {/*<Case>
+              
+              <Caption id="case-1" number="1" name={<span>Beautiful eyes <sup style={{ color: "lightgrey" }}><small><em>mediocre tan</em></small></sup></span>} difficulty="Well, it depends." objectives="Compliment appearance — new haircut, tattoo, bracelet, jeans, etc." />
+              */}
+              <SlackMessage
+                senderId="bohdan-pelekh"
+                senderName="Bohdan Pelekh"
+                senderAvatarUrl={bohdanPelekhAvatar}
+                reactions={[
+                  { emoji: "😊", count: 1 },
+                  { emoji: "🤗", count: 6 },
+                  { emoji: "🎉", count: 7 },
+                  { emoji: "🍪", count: 12 },
+                  { emoji: "😛", count: 2 },
+                  { emoji: "🥠", count: 5 }
+                ]}
+                replies={[
+                  { name: "Vasyl Magora", avatarUrl: vasylMagoraAvatar },
+                  { name: "Ilya Kotlov", avatarUrl: ilyaKotlovAvatar },
                   { name: "Orest Hapaliak", avatarUrl: orestHapaliakAvatar },
                   { name: "Vadym Drybas", avatarUrl: vadymDrybasAvatar },
                   { name: "Yurii Ostapchuk", avatarUrl: yuriiOstapchukAvatar },
                   { name: "Bohdan Pelekh", avatarUrl: bohdanPelekhAvatar }
                 ]}
               >
-                <div><strong>/give +10</strong> <span className="bg-secondary">@ilya.kotlov</span> & <span className="bg-secondary">@volodymyr.kondratenko</span> for the deepest and most beautiful eyes I have ever seen in my entire life, no kidding <span className="text-primary"><strong>#загарніочі</strong></span> <span className="text-primary"><strong>#загарнеочень</strong></span></div>
+                <div><strong>+45</strong> and a cookie to <span className="bg-secondary">@y.ostapchuk</span>, 'cause that guy you recommended last week is getting hireeeeeed! <span className="text-primary"><strong>#referral #happyhr</strong></span></div>
               </SlackMessage>
-            </Case>
+             {/*</Case>*/}
+            </div>
+
+            <div className="hero hero-lg">
+              <div className="hero-body text-center">
+                <h1>What else?</h1>
+                <div className="columns">
+                  <div className="column col-6">
+                    <div className="panel">
+                      <div className="panel-header">
+                        <div className="panel-title">
+                          <h4>Goddess of luck</h4><br /><img src="https://discordemoji.com/assets/emoji/Chest.gif"></img>
+                        </div>
+                      </div>
+                      qwe
+                    </div>
+                  </div>
+                  <div className="column col-6">
+                    <div className="panel">
+                      <div className="panel-header">
+                        <div className="panel-title">
+                          <h4>Clark Kent's lottery</h4><img src="https://dumielauxepices.net/sites/default/files/superman-logo-clipart-transparent-785959-3553308.gif" height="100px"></img>
+                        </div>  
+                      </div>
+                      qwe                      
+                    </div>
+                  </div>
+                  <div className="column col-6">
+                    <div className="panel">
+                      <div className="panel-header">
+                        <div className="panel-title">
+                        <h4>Sweepstake bets</h4><img src="http://www.spectacletheater.com/wp-content/uploads/stable/orbit.gif" height="70px"></img>
+                        </div>  
+                      </div>
+                      qwe                      
+                    </div>
+                  </div>
+                  <div className="column col-6">
+                    <div className="panel">
+                      <div className="panel-header">
+                        <div className="panel-title">
+                        <h4>Happy Working Anniversary</h4><img src="https://cdn.dribbble.com/users/48951/screenshots/1886884/cake_animation.gif" height="70px"></img>
+                        </div>  
+                      </div>
+                      qwe                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+
+            <div className="hero hero-lg">
+              <div className="hero-body text-center">
+                <h1>Have fun.</h1>
+              </div>
+            </div>    
+
+                
+
+
           </article>
           <Footer />
         </div>
