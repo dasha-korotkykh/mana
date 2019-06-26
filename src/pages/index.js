@@ -70,23 +70,26 @@ const Index = () => (
                       Basically, that’s it <em>(yes, you can leave)</em>, but then wouldn’t it be nice to somehow keep telling it (and cheering each other up) beyond once-in-some-time gathering? 
                     </div>
                     <div>
-                      We gave it a thought and sought the aid of bonus.ly, a platform designed and used to exchange gratitude with virtual currency, which at any point could be exchanged for perks of one’s choice.
+                      We gave it a thought and sought the aid of <a href="https://bonus.ly/"><strong>Bonusly</strong></a>, a platform designed and used to exchange gratitude with virtual currency, which at any point could be exchanged for perks of one’s choice. Bonusly offers to:
                     </div>
                 </div>
-                <br />
-                <h4>Bonus.ly offers to:</h4>
-                <div className="columns">
+                <div className="columns my-2">
                   <div className="column col-4">
                     <div class="panel">
                       <div class="panel-header">
                         <div className="panel-title">
                           <h6>
-                            <strong><span role="img" aria-label="rainbow">😤</span>Promote your mission</strong>
+                            <strong>Promote your mis-s-s-s-sion!</strong>
                             <span className="text-gray"><small>#1</small></span>
                           </h6>
                         </div>
                       </div>
                       <div class="panel-body">
+                        <span style={{
+                          fontSize: "3em",
+                          float: "right",
+                          lineHeight: "1.25em"
+                        }}>😤</span>
                         Make recognition more impactful by connecting it to your company’s core values and giving visibility to everyone’s contributions.
                       </div>
                     </div>
@@ -96,12 +99,17 @@ const Index = () => (
                       <div class="panel-header">
                         <div className="panel-title">
                           <h6>
-                            <strong><span role="img" aria-label="rainbow">💩</span>Build stronger teams</strong>
+                            <strong>Build stronger t-t-t-t-teams!</strong>
                             <span className="text-gray"><small>#2</small></span>
                           </h6>
                         </div>
                       </div>
                       <div class="panel-body">
+                        <span style={{
+                          fontSize: "3em",
+                          float: "right",
+                          lineHeight: "1.25em"
+                        }}>💩</span>
                         Build a scalable culture of recognition by empowering everyone to recognize their peers, direct reports, and managers.
                       </div>
                     </div>
@@ -111,85 +119,81 @@ const Index = () => (
                       <div class="panel-header">
                         <div className="panel-title">
                           <h6>
-                            <strong><span role="img" aria-label="rainbow">🚣‍</span>Boost engagement</strong>
+                            <strong>Boost enga-a-a-a-agement!</strong>
                             <span className="text-gray"><small>#3</small></span>
                           </h6>
                         </div>
                       </div>
                       <div class="panel-body">
-                        Encourage frequent and timely recognition by integrating with the communication tools your employees use every day.
+                        <span style={{
+                          fontSize: "3em",
+                          float: "right",
+                          lineHeight: "1.25em"
+                        }}>🚣‍</span>
+                        Encourage frequent and timely recognition by integrating with the communication tools your employees use every day.                        
                       </div>
                     </div>
                   </div>
                 </div>
-                <div>Their website says many companies are happy using it, that’s a good thing.<br />
-                  On the other hand, here at RLR we already have a pretty cool, engaged and coordinated team, is there any <strong>actual fun</strong> in integrating something like that?
+                <div>Their website says many companies are happy using it, so that’s a good thing. On the other hand, here at Ricker Lyman Robotic we already have a pretty cool, engaged and coordinated team, is there any <strong>actual fun</strong> in integrating something like that?
                 </div>
               </div>
             </div>
             <div className="hero hero-lg">
-              <div className="hero-body text-center">
-                <h1>It could be tweaked.</h1>
-              </div>
-              <div>Suppose every month you would get paid not only with salary, but with a portion of mana.</div>
-              <div>🧙‍️ 💧✨💧✨💧✨💧✨💧✨💧✨💧✨💧✨💧✨💧✨💧✨💧✨💧✨💧✨💧✨💧✨</div>  
-              <FacebookMessage>
-              <div>Normally, <strong>mana</strong> is used to cast spells. 
-              <br />This specific one to spell <strong>thanks and thumbs-up</strong>. Yep, that’s all you can do with it: send out.</div>
-              </FacebookMessage>
-              <div>When you bind your raw <strong>mana</strong> with gratitude or inspiration or lolz and send in the direction of another person, they receive it as a bound mana.</div>
-              <div className="hero hero-lg">
-                <div className="hero-body text-center"></div>
-                  <h4>And here's what happened:</h4>
-                  <ul>
-                    <li>You have expressed yourself 🎉</li>
-                    <li>You have encouraged your peer 🤜🤛</li>
-                    <li>That lucky dude not only feels instantly better but can also use this bound <strong>mana</strong> <br />to get gear, loot and power-ups of his choice!🧰</li>
-                  </ul>
-                </div>
-              </div>  
-              <div className="hero hero-lg">
-                <div className="hero-body text-center">
-                  <h1>What kind of stuff can one get?<br />🥎🌶️⏱️🧦🙏🧯🧻💣</h1>
-                </div>
-              </div>
-                      
+              <div className="hero-body">
+                <h1 className="text-center">It could be tweaked.</h1>
+                <div>Suppose every month you would get paid not only with salary, but with a portion of mana.</div>
+                <div>🧙‍️ 💧✨💧✨💧✨💧✨💧✨💧✨💧✨💧✨💧✨💧✨💧✨💧✨💧✨💧✨💧✨💧✨</div>  
+                <FacebookMessage>
+                  <div>Normally, <strong>mana</strong> is used to cast spells. 
+                  <br />This specific one to spell <strong>thanks and thumbs-up</strong>. Yep, that’s all you can do with it: send out.</div>
+                </FacebookMessage>
+                <div>When you bind your raw <strong>mana</strong> with gratitude or inspiration or lolz and send in the direction of another person, they receive it as a bound mana.</div>
+                <div>And here's what just happened:</div>
+                <ol className="inverted">
+                  <li>You have expressed yourself 🎉</li>
+                  <li>You have encouraged your peer 🤜🤛</li>
+                  <li>That lucky dude not only feels instantly better but can also use this bound <strong>mana</strong> to get gear, loot and power-ups of his choice! 🧰</li>
+                </ol>
+              </div> 
+            </div>
             <div className="hero hero-lg">
               <div className="hero-body text-center">
-                <h1>OK. How do I do that?</h1>
-              </div>  
-            </div>
+                <h1>What kind of stuff can one get?<br />🥎🌶️⏱️🧦🙏🧯🧻💣</h1>
+              </div>
+            </div>                      
+            <div className="hero hero-lg">
+              <div className="hero-body">
+                <h1 className="text-center">OK. How do I do that?</h1>
                 <ul>
-                  <li><strong>Bonus.ly platform</strong> is where you can see your <strong>mana</strong> points in your user profile, available rewards and their cost in points.</li>
+                  <li><strong>Bonusly platform</strong> is where you can see your <strong>mana</strong> points in your user profile, available rewards and their cost in points.</li>
                   <li>Public channel called <a href="https://rickerlyman.slack.com/messages/CK7MBDXHU/"><strong>#bonusly</strong></a> is a Trading Exchange Market, Post Office and somewhat a flood chat</li>
-                  <li>Whenever you have an inspiration to throw some recognition at one of your RLR peers, just go to bonus.ly interface OR that channel and <strong>compose a spell</strong>:</li>
+                  <li>Whenever you have an inspiration to throw some recognition at one of your RLR peers, just go to Bonusly interface OR that channel and <strong>compose a spell</strong>:</li>
                 </ul>
-              <SlackMessage
-                senderId="julia-titova"
-                senderName="Julia Titova"
-                senderAvatarUrl={juliaTitovaAvatar}
-                reactions={[
-                  { emoji: "💪", count: 4 },
-                  { emoji: "🥇", count: 1 },
-                  { emoji: "😤", count: 5 },
-                  { emoji: "🐲", count: 2 }
-                ]}
-                replies={[
-                  { name: "Iryna Shvets", avatarUrl: irynaShvetsAvatar },
-                  { name: "George Barvinok", avatarUrl: georgeBarvinokAvatar },
-                  { name: "Galyna Makogoniuk", avatarUrl: galynaMakogoniukAvatar },
-                  { name: "Orest Hapaliak", avatarUrl: orestHapaliakAvatar },
-                  { name: "Vadym Drybas", avatarUrl: vadymDrybasAvatar },
-                  { name: "Yurii Ostapchuk", avatarUrl: yuriiOstapchukAvatar },
-                  { name: "Bohdan Pelekh", avatarUrl: bohdanPelekhAvatar }
-                ]}
-              >
-                <p><strong>/give +5 @that_awesome_fella</strong> for <strong>tending extra time to our unit tests</strong> when we needed them the most. Here goes hashtag <strong>#staying-up-late</strong>.
-</p>
-              </SlackMessage>
-              
-
-
+                <SlackMessage
+                  senderId="julia-titova"
+                  senderName="Julia Titova"
+                  senderAvatarUrl={juliaTitovaAvatar}
+                  reactions={[
+                    { emoji: "💪", count: 4 },
+                    { emoji: "🥇", count: 1 },
+                    { emoji: "😤", count: 5 },
+                    { emoji: "🐲", count: 2 }
+                  ]}
+                  replies={[
+                    { name: "Iryna Shvets", avatarUrl: irynaShvetsAvatar },
+                    { name: "George Barvinok", avatarUrl: georgeBarvinokAvatar },
+                    { name: "Galyna Makogoniuk", avatarUrl: galynaMakogoniukAvatar },
+                    { name: "Orest Hapaliak", avatarUrl: orestHapaliakAvatar },
+                    { name: "Vadym Drybas", avatarUrl: vadymDrybasAvatar },
+                    { name: "Yurii Ostapchuk", avatarUrl: yuriiOstapchukAvatar },
+                    { name: "Bohdan Pelekh", avatarUrl: bohdanPelekhAvatar }
+                  ]}
+                >
+                  <strong>/give +5 @that_awesome_fella</strong> for <strong>tending extra time to our unit tests</strong> when we needed them the most. Here goes hashtag <strong>#staying-up-late</strong>.
+                </SlackMessage>
+              </div>  
+            </div>
             <div className="hero hero-lg">
               <div className="hero-body text-center">
                 

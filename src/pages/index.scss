@@ -91,3 +91,54 @@
 .content .bubble + div {
   margin-top: 0.25rem;
 }
+
+/* Lists */
+.content ul,
+.content ol {
+  list-style: none outside none;
+  padding-left: 1.5em;
+}
+.content ol {
+  counter-reset: ol-counter;
+}
+.content li {
+  list-style: none outside none;
+}
+.content ul:not(.step) > li:before {
+  content: "●";
+  font-family: "Arial";
+  float: left;
+  width: 1.5em;
+  margin-left: -1.5em;
+  text-align: center;
+}
+.content ol > li:before {
+  content: counter(ol-counter);
+  counter-increment: ol-counter;
+  float: left;
+  width: 0.9rem;
+  border-radius: 0.25em;
+  background: transparent;
+  color: inherit;
+  font-weight: bold;
+  font-size: 0.7em;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(-1.5rem + 0.5rem / 2);
+  height: 0.9rem;
+  line-height: 1rem;
+  margin-top: calc((0.8rem * 1.5 - 1rem) / 2 + 0.05rem);
+}
+.content ol.inverted > li:before {
+  background: black;
+  color: white;
+  font-weight: normal;
+}
+.content .bubble ol.inverted > li:before {
+  background: white;
+  color: #0084ff;
+  font-weight: bold;
+  border-radius: 100%;
+}
