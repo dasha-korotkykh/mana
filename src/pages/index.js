@@ -174,15 +174,7 @@ const Index = () => (
                   { emoji: "😤", count: 5 },
                   { emoji: "🐲", count: 2 }
                 ]}
-                replies={[
-                  { name: "Iryna Shvets", avatarUrl: irynaShvetsAvatar },
-                  { name: "George Barvinok", avatarUrl: georgeBarvinokAvatar },
-                  { name: "Galyna Makogoniuk", avatarUrl: galynaMakogoniukAvatar },
-                  { name: "Orest Hapaliak", avatarUrl: orestHapaliakAvatar },
-                  { name: "Vadym Drybas", avatarUrl: vadymDrybasAvatar },
-                  { name: "Yurii Ostapchuk", avatarUrl: yuriiOstapchukAvatar },
-                  { name: "Bohdan Pelekh", avatarUrl: bohdanPelekhAvatar }
-                ]}
+                
               >
                 <p><strong>/give +5 @that_awesome_fella</strong> for <strong>tending extra time to our unit tests</strong> when we needed them the most. Here goes hashtag <strong>#staying-up-late</strong>.
 </p>
@@ -287,7 +279,7 @@ const Index = () => (
                           <h4>Goddess of luck</h4><br /><img src="https://discordemoji.com/assets/emoji/Chest.gif"></img>
                         </div>
                       </div>
-                      qwe
+                      Opens box once a month and grants 3 random yous +10 <strong>mana</strong> points each
                     </div>
                   </div>
                   <div className="column col-6">
