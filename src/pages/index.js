@@ -289,7 +289,7 @@ const Index = () => (
                           <h4>Clark Kent's lottery</h4><img src="https://dumielauxepices.net/sites/default/files/superman-logo-clipart-transparent-785959-3553308.gif" height="100px"></img>
                         </div>  
                       </div>
-                      qwe                      
+                      Weekly event of 1 hour window to bid, random participant steals jackpot                     
                     </div>
                   </div>
                   <div className="column col-6">
@@ -299,7 +299,7 @@ const Index = () => (
                         <h4>Sweepstake bets</h4><img src="http://www.spectacletheater.com/wp-content/uploads/stable/orbit.gif" height="70px"></img>
                         </div>  
                       </div>
-                      qwe                      
+                      Send your bet <strong>10 mana</strong> on literally anything - send the bid to @clark.kent
                     </div>
                   </div>
                   <div className="column col-6">
