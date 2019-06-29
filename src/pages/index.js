@@ -279,7 +279,9 @@ const Index = () => (
                           <h4>Goddess of luck</h4><br /><img src="https://discordemoji.com/assets/emoji/Chest.gif"></img>
                         </div>
                       </div>
-                      Opens box once a month and grants 3 random yous +10 <strong>mana</strong> points each
+                      <br />
+                      <span>Opens box once a month and grants <br/>3 random yous <strong>+10 mana</strong> points each</span>
+                      <br />
                     </div>
                   </div>
                   <div className="column col-6">
@@ -289,7 +291,8 @@ const Index = () => (
                           <h4>Clark Kent's lottery</h4><img src="https://dumielauxepices.net/sites/default/files/superman-logo-clipart-transparent-785959-3553308.gif" height="100px"></img>
                         </div>  
                       </div>
-                      Weekly event of 1 hour window to bid, random participant steals jackpot                     
+                      <span>Weekly event of 1 hour bidding window, <br />after which one random participant steals <strong>jackpot</strong></span>                     
+                      <br />
                     </div>
                   </div>
                   <div className="column col-6">
@@ -299,7 +302,8 @@ const Index = () => (
                         <h4>Sweepstake bets</h4><img src="http://www.spectacletheater.com/wp-content/uploads/stable/orbit.gif" height="70px"></img>
                         </div>  
                       </div>
-                      Send your bet <strong>10 mana</strong> on literally anything - send the bid to @clark.kent
+                      <span>Bet <strong>10 mana</strong> on literally anything — send the bid to <br />@clark.kent and add a descriptive message</span>
+                      <br />
                     </div>
                   </div>
                   <div className="column col-6">
@@ -309,7 +313,8 @@ const Index = () => (
                         <h4>Happy Working Anniversary</h4><img src="https://cdn.dribbble.com/users/48951/screenshots/1886884/cake_animation.gif" height="70px"></img>
                         </div>  
                       </div>
-                      qwe                      
+                      <span>Goddess of retention sends <strong>+50 redeemable mana</strong> <br />every working anniversary you hit</span>                  
+                      <br />
                     </div>
                   </div>
                 </div>
