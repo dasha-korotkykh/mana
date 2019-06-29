@@ -166,7 +166,7 @@ const Index = () => (
               <div className="hero-body text-center">
                 <h1>What kind of <strong>stuff</strong> can one get?<br />🥎🌶️⏱️🧦🙏🧯🧻💣</h1>
               </div>
-            </div>                      
+            </div>      
             <div className="hero hero-lg">
               <div className="hero-body">
                 <h1 className="text-center">How to <strong>send mana</strong>?</h1>
@@ -298,7 +298,9 @@ const Index = () => (
                           <h4>Goddess of luck</h4><br /><img src="https://discordemoji.com/assets/emoji/Chest.gif"></img>
                         </div>
                       </div>
-                      qwe
+                      <br />
+                      <span>Opens box once a month and grants <br/>3 random yous <strong>+10 mana</strong> points each</span>
+                      <br />
                     </div>
                   </div>
                   <div className="column col-6">
@@ -308,7 +310,8 @@ const Index = () => (
                           <h4>Clark Kent's lottery</h4><img src="https://dumielauxepices.net/sites/default/files/superman-logo-clipart-transparent-785959-3553308.gif" height="100px"></img>
                         </div>  
                       </div>
-                      qwe                      
+                      <span>Weekly event of 1 hour bidding window, <br />after which one random participant steals <strong>jackpot</strong></span>                     
+                      <br />
                     </div>
                   </div>
                   <div className="column col-6">
@@ -318,7 +321,8 @@ const Index = () => (
                         <h4>Sweepstake bets</h4><img src="http://www.spectacletheater.com/wp-content/uploads/stable/orbit.gif" height="70px"></img>
                         </div>  
                       </div>
-                      qwe                      
+                      <span>Bet <strong>10 mana</strong> on literally anything — send the bid to <br />@clark.kent and add a descriptive message</span>
+                      <br />
                     </div>
                   </div>
                   <div className="column col-6">
@@ -328,19 +332,18 @@ const Index = () => (
                         <h4>Happy Working Anniversary</h4><img src="https://cdn.dribbble.com/users/48951/screenshots/1886884/cake_animation.gif" height="70px"></img>
                         </div>  
                       </div>
-                      qwe                      
+                      <span>Goddess of retention sends <strong>+50 redeemable mana</strong> <br />every working anniversary you hit</span>                  
+                      <br />
                     </div>
                   </div>
                 </div>
               </div>
-            </div> 
-
+            </div>
             <div className="hero hero-lg">
               <div className="hero-body text-center">
                 <h1>Have fun.</h1>
               </div>
             </div>
-
           </article>
           <Footer />
         </div>
