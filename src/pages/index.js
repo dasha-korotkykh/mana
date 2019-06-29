@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import classNames from "classnames";
 import { SEO, Header, Footer, VideoWrapper, SlackMessage, FacebookMessage, CannotEatThankYouWithBread, SlackMessageInput } from "../components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faQuestionCircle } from "@fortawesome/pro-solid-svg-icons";
+import { faQuestionCircle, faHeart, faComment, faThumbsUp } from "@fortawesome/pro-solid-svg-icons";
 import {
   youAvatar,
   alecMarinAvatar,
@@ -207,7 +207,46 @@ const Index = () => {
                     border: "1px solid #eeeeee",
                     marginBottom: "1em"
                   }}>
-                    <em>Wireframe Bonusly website here</em>
+                    <div>You have 85 points to give away </div>
+                    <div style={{ display: "flex" }}>
+                      <div style={{ marginRight: "1em" }}>
+                        <div className="bonusly-message-input">
+                          <textarea placeholder="+5 @volodymyr.kushnir for helping me launch a marketing campaign so that we can generate new business #teamwork" />
+                          <button className="btn">Give</button>
+                        </div>
+                        <div className="bonusly-message">
+                          <div className="bonusly-message__header">
+                            +5 O 2d ago ...
+                          </div>
+                          <div className="bonusly-message__body">
+                            <strong>Volodymyr:</strong> +5 @bear for tending extra time to our unit tests when we needed them the most. Here goes hashtag #fucking-who-cares
+                          </div>
+                          <div className="bonusly-message__actions text-gray">
+                            <ul>
+                              <li><FontAwesomeIcon icon={faHeart} /> Add On</li>
+                              <li><FontAwesomeIcon icon={faComment} /> Comment</li>
+                              <li><FontAwesomeIcon icon={faThumbsUp} /> React</li>
+                            </ul>
+                          </div>
+                          <div className="bonusly-message__comment">
+                            <input placeholder="Add a comment" />
+                          </div>
+                        </div>
+                      </div>
+                      <div style={{ flex: "0 0 30%" }}>
+                        <div className="bonusly-panel text-center">
+                          <h5 className="text-center">You have <strong>50 points</strong> to redeem</h5>
+                          <button class="btn" style={{ width: "100%" }}>Pick a reward</button>
+                        </div>
+                        <div>
+                          <div><strong>Trending</strong></div>
+                          <div>
+                            #who-fucking-cares
+                            <span><strong>2</strong></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                   <h4>On <strong>Slack</strong></h4>
                   <div style={{
@@ -344,7 +383,8 @@ const Index = () => {
                     <div className="panel">
                       <div className="panel-header">
                         <div className="panel-title">
-                          <h4>Goddess of luck</h4><br /><img src="https://discordemoji.com/assets/emoji/Chest.gif"></img>
+                          <h4>Goddess of luck</h4>
+                          <img src="https://discordemoji.com/assets/emoji/Chest.gif" />
                         </div>
                       </div>
                       <div className="panel-body">
@@ -356,7 +396,8 @@ const Index = () => {
                     <div className="panel">
                       <div className="panel-header">
                         <div className="panel-title">
-                          <h4>Clark Kent's lottery</h4><img src="https://dumielauxepices.net/sites/default/files/superman-logo-clipart-transparent-785959-3553308.gif" height="100px"></img>
+                          <h4>Clark Kent's lottery</h4>
+                          <img src="https://dumielauxepices.net/sites/default/files/superman-logo-clipart-transparent-785959-3553308.gif" height="100px" />
                         </div>  
                       </div>
                       <div className="panel-body">
@@ -368,7 +409,8 @@ const Index = () => {
                     <div className="panel">
                       <div className="panel-header">
                         <div className="panel-title">
-                        <h4>Sweepstake bets</h4><img src="http://www.spectacletheater.com/wp-content/uploads/stable/orbit.gif" height="70px"></img>
+                          <h4>Sweepstake bets</h4>
+                          <img src="http://www.spectacletheater.com/wp-content/uploads/stable/orbit.gif" height="70px" />
                         </div>  
                       </div>
                       <div className="panel-body">
@@ -380,7 +422,8 @@ const Index = () => {
                     <div className="panel">
                       <div className="panel-header">
                         <div className="panel-title">
-                        <h4>Happy Working Anniversary</h4><img src="https://cdn.dribbble.com/users/48951/screenshots/1886884/cake_animation.gif" height="70px"></img>
+                          <h4>Happy Working Anniversary</h4>
+                          <img src="https://cdn.dribbble.com/users/48951/screenshots/1886884/cake_animation.gif" height="70px" />
                         </div>  
                       </div>
                       <div className="panel-body">
@@ -401,7 +444,7 @@ const Index = () => {
                   <h1 style={{
                     fontWeight: 800,
                     margin: 0
-                  }}>Have fun! 👋</h1>
+                  }}>Have fun! 🎉</h1>
                 </div>
               </div>
               <Footer />

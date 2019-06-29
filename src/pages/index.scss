@@ -263,3 +263,43 @@
   font-size: 0.9em;
   font-weight: bold;
 }
+
+/* Bonusly */
+.bonusly-message-input,
+.bonusly-panel {
+  background: white;
+  border: 1px solid #eeeeee;
+  padding: 1em;
+  border-radius: 2px;
+}
+
+/* Bonusly message */
+.bonusly-message {
+  background: white;
+  border: 1px solid #eeeeee;
+  border-radius: 2px;
+}
+.bonusly-message__actions ul {
+  margin: 0.5em 1em;
+  padding: 0;
+  overflow: auto;
+}
+.bonusly-message__actions ul li {
+  list-style: none outside none;
+  float: left;
+  margin-right: 1em;
+}
+.bonusly-message__actions ul li:before {
+  display: none;
+}
+.bonusly-message__comment input {
+  display: block;
+  border: 0;
+  border-top: 1px solid #e7e8e9;
+  background: #f6f7f9;
+  width: 100%;
+  margin: 0;
+  padding: 0.5em 1em;
+  outline: none;
+  color: #2E3538;
+}
