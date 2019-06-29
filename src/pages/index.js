@@ -52,10 +52,21 @@ const Index = () => (
                     <span className="thank-you">спасибо</span>
                     <span className="could-be-eaten-with-bread">можно было намазать на хлеб?<sup className="text-gray"><strong>*</strong></sup></span>
                   </h1>
-                  <h5 className="text-gray"><sup><strong style={{ fontSize: "1.5em", lineHeight: 0.5 }}>*</strong></sup>Russian saying <strong><CannotEatThankYouWithBread /></strong> means <strong>"You cannot eat "thank you" with bread"</strong> or <strong>"Can't put thanks in your pocket (or in the bank)"</strong>. So... <em>what if you could?</em></h5>
+                  <div style={{ marginTop: "7em" }} className="avatars-wrapper">
+                    <div className="avatar-wrapper tooltip" data-tooltip="Julia Titova">
+                      <object class="avatar-object" data={juliaTitovaRoundedAvatar} role="img" aria-label="Julia Titova"></object>
+                    </div>
+                    <div class="avatar-wrapper tooltip" data-tooltip="Dasha Korotkykh">
+                      <object class="avatar-object" data={dashaKorotkykhRoundedAvatar} role="img" aria-label="Dasha Korotkykh"></object>
+                    </div>
+                  </div>
+                  <div style={{ marginTop: "1em" }}><strong>July 1<sup>st</sup></strong>, 2019</div>
                 </div>
               </div>
             </div>
+            {/*
+            <h5 className="text-gray"><sup><strong style={{ fontSize: "1.5em", lineHeight: 0.5 }}>*</strong></sup>Russian saying <strong><CannotEatThankYouWithBread /></strong> means <strong>"You cannot eat "thank you" with bread"</strong> or <strong>"Can't put thanks in your pocket (or in the bank)"</strong>. So... <em>what if you could?</em></h5>
+            */}
             <div className="hero hero-lg">
               <div className="hero-body">
                 <h1 className="text-center">You're <strong>awesome and incredible</strong>!</h1>

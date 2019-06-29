@@ -18,21 +18,6 @@
   }
 }
 
-/* Title */
-.main-title {
-  display: flex;
-  flex-direction: column;
-  font-family: "Montserrat", sans-serif;
-  font-size: 3.5em;
-  line-height: 1.125em;
-}
-.main-title .what-if {
-  font-weight: 300;
-}
-.main-title .thank-you {
-  font-weight: 900;
-}
-
 /* Panels */
 .panel .panel-header h6 {
   margin: 0;
@@ -202,4 +187,32 @@
 .about-bonusly .panel {
   background-color: white;
   color: black;
+}
+
+/* Main title */
+.main-title {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5em;
+  line-height: 1.125em;
+}
+.main-title .what-if {
+  font-weight: 300;
+}
+.main-title .thank-you {
+  font-weight: 900;
+}
+
+/* Avatars */
+.avatars-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.avatars-wrapper .avatar-wrapper {
+  width: 3em;
+  flex: 0 0 3em;
+}
+.avatars-wrapper .avatar-wrapper:last-child {
+  margin: 0;
 }
