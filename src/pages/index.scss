@@ -265,6 +265,13 @@
 }
 
 /* Bonusly */
+.bonusly-mockup {
+  padding: 1em;
+  background: linear-gradient(#33CC66 33%, #fafafa 33%);
+  margin-bottom: 1em;
+  border-radius: 4px;
+}
+
 .bonusly-message-input,
 .bonusly-panel {
   background: white;
@@ -273,11 +280,74 @@
   border-radius: 2px;
 }
 
+/* Bonusly button */
+.bonusly-button {
+  color: #33cc66;
+  border-color: #33cc66;
+  outline: none;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  appearance: none;
+  font-weight: bold;
+}
+.bonusly-button:hover {
+  color: #33CC66;
+  background-color: rgba(20.00%, 80.00%, 40.00%, 0.10);
+}
+.bonusly-button--solid {
+  color: white;
+  background: #33CC66;
+}
+.bonusly-button--solid:hover {
+  color: white;
+  background: #33aa66;
+}
+
 /* Bonusly message */
 .bonusly-message {
   background: white;
   border: 1px solid #eeeeee;
   border-radius: 2px;
+  margin-top: 1em;
+}
+.bonusly-message__header {
+  padding: 1em 1em 0.5em;
+}
+.bonusly-message__header .points {
+  border-radius: 100%;
+  background: rgb(51, 204, 102);
+  color: white;
+  height: 2em;
+  display: inline-block;
+  width: 2em;
+  line-height: 2em;
+  text-align: center;
+  font-weight: bold;
+  margin-right: 0.5em;
+}
+.bonusly-message__header .recepient {
+  height: 2em;
+  width: 2em;
+  display: inline-block;
+  border-radius: 100%;
+}
+.bonusly-message__body {
+  padding: 0.5em 1em;
+}
+.bonusly-message__header {
+  display: flex;
+}
+.bonusly-message__header > div:first-child {
+  flex: 1 1 auto;
+  display: flex;
+}
+.bonusly-message__header > div:last-child {
+  display: flex;
+  align-items: center;
+}
+.bonusly-message__header > div:last-child small {
+  margin-right: 0.5em;
 }
 .bonusly-message__actions ul {
   margin: 0.5em 1em;
@@ -302,4 +372,20 @@
   padding: 0.5em 1em;
   outline: none;
   color: #2E3538;
+}
+
+/* Bonusly message input */
+.bonusly-message-input__actions {
+  filter: grayscale(1);
+}
+.bonusly-message-input__actions button {
+  margin-right: 0.5em;
+  padding: 0.25em 0.5em;
+}
+.bonusly-message-input textarea {
+  width: 100%;
+  outline: none;
+  appearance: none;
+  border: none;
+  padding: 1em 0;
 }

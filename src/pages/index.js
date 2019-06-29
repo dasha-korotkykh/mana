@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import classNames from "classnames";
 import { SEO, Header, Footer, VideoWrapper, SlackMessage, FacebookMessage, CannotEatThankYouWithBread, SlackMessageInput } from "../components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faQuestionCircle, faHeart, faComment, faThumbsUp } from "@fortawesome/pro-solid-svg-icons";
+import { faQuestionCircle, faHeart, faComment, faThumbsUp, faEllipsisH, faPlus, faUser, faHashtag } from "@fortawesome/pro-solid-svg-icons";
 import {
   youAvatar,
   alecMarinAvatar,
@@ -201,25 +201,44 @@ const Index = () => {
               <div className="hero hero-lg">
                 <div className="hero-body">
                   <h1 className="text-center">How to <strong>send mana</strong>?</h1>
-                  <h4>With <strong>Bonusly</strong></h4>
-                  <div style={{
-                    padding: "1em",
-                    border: "1px solid #eeeeee",
-                    marginBottom: "1em"
-                  }}>
-                    <div>You have 85 points to give away </div>
+                  <h4>With <a href="https://bonus.ly/"><strong>Bonusly</strong></a></h4>
+                  <div className="bonusly-mockup">
+                    <h5 style={{ color: "white" }}>You have <strong>85 points</strong> to give away <FontAwesomeIcon icon={faQuestionCircle} style={{ opacity: 0.5 }} /></h5>
                     <div style={{ display: "flex" }}>
                       <div style={{ marginRight: "1em" }}>
                         <div className="bonusly-message-input">
+                          <div className="bonusly-message-input__actions">
+                            <button className="bonusly-button">
+                              <FontAwesomeIcon icon={faPlus} />
+                            </button>
+                            <button className="bonusly-button">
+                              <FontAwesomeIcon icon={faUser} />
+                            </button>
+                            <button className="bonusly-button">
+                              <FontAwesomeIcon icon={faHashtag} />
+                            </button>
+                          </div>
                           <textarea placeholder="+5 @volodymyr.kushnir for helping me launch a marketing campaign so that we can generate new business #teamwork" />
-                          <button className="btn">Give</button>
+                          <button className="bonusly-button bonusly-button--solid">Give</button>
                         </div>
                         <div className="bonusly-message">
                           <div className="bonusly-message__header">
-                            +5 O 2d ago ...
+                            <div>
+                              <div className="points">+5</div>
+                              <img className="recepient" src={vasylMagoraAvatar} alt="" />
+                            </div>
+                            <div className="text-gray">
+                              <small>2d ago</small>
+                              <FontAwesomeIcon icon={faEllipsisH} />
+                            </div>
                           </div>
                           <div className="bonusly-message__body">
-                            <strong>Volodymyr:</strong> +5 @bear for tending extra time to our unit tests when we needed them the most. Here goes hashtag #fucking-who-cares
+                            <strong>Iryna:</strong> <strong style={{
+                              borderRadius: "100%",
+                              border: "3px solid #33cc66",
+                              padding: "0.125em",
+                              color: "#33cc66"
+                            }}>+5</strong> <strong style={{ color: "#33cc66" }}>@v.magora</strong> for a fascinating new beard style <span className="text-gray">#breaking-news-this-just-in #за-гарні-очі #lacoste</span>
                           </div>
                           <div className="bonusly-message__actions text-gray">
                             <ul>
@@ -236,19 +255,19 @@ const Index = () => {
                       <div style={{ flex: "0 0 30%" }}>
                         <div className="bonusly-panel text-center">
                           <h5 className="text-center">You have <strong>50 points</strong> to redeem</h5>
-                          <button class="btn" style={{ width: "100%" }}>Pick a reward</button>
+                          <button class="bonusly-button" style={{ width: "100%" }}>Pick a reward</button>
                         </div>
-                        <div>
+                        <div style={{ marginTop: "2em" }}>
                           <div><strong>Trending</strong></div>
                           <div>
-                            #who-fucking-cares
-                            <span><strong>2</strong></span>
+                            #за-гарні-очі
+                            <span className="float-right"><strong>2</strong></span>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <h4>On <strong>Slack</strong></h4>
+                  <h4>On <a href="https://rickerlyman.slack.com/messages/CK7MBDXHU/"><strong>Slack</strong></a></h4>
                   <div style={{
                     padding: "1em",
                     border: "1px solid #eeeeee"
