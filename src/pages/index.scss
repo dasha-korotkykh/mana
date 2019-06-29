@@ -60,38 +60,6 @@
   flex: 1 0 auto;
 }
 
-/* Speech bubble */
-.content .bubble {
-  background: linear-gradient(to right, #0084ff, #00c4ff);
-  color: white;
-  border-radius: 0.25em 1em 1em 1em;
-  padding: 0.4em 0.8em;
-  margin-top: 0;
-  display: inline-block;
-  position: relative;
-  overflow: visible;
-  transition: opacity 0.2s ease-in-out;
-}
-.content .bubble.small {
-  font-size: 0.85em;
-}
-.content .bubble.subtle {
-  opacity: 0.5;
-}
-.content .bubble.subtle:hover {
-  opacity: 1;
-}
-.content .bubble a {
-  color: inherit;
-}
-.content p + div > .bubble:first-child {
-  margin-top: -0.25rem;
-}
-.content .bubble + p,
-.content .bubble + div {
-  margin-top: 0.25rem;
-}
-
 /* Lists */
 .content ul,
 .content ol {
@@ -230,47 +198,8 @@
   text-decoration: underline;
 }
 
-/* Welcome */
-.welcome-wrapper {
-  display: flex;
-  align-items: flex-end;
-}
-.welcome-wrapper .avatar-wrapper {
-  margin-right: 0.5em;
-}
-
 /* Bonusly */
-.bonusly-wrapper {
-  display: flex;
-  align-items: flex-end;
-}
-.bonusly-wrapper .avatars-wrapper {
-  margin-right: 0.5em;
-  display: flex;
-}
-.bonusly-wrapper .avatars-wrapper .avatar-wrapper {
-  width: 3.5em;
-  margin-right: 0em;
-  flex: 0 0 3.5em;
-}
-.bonusly-wrapper .avatars-wrapper .avatar-wrapper:first-child {
-  margin-right: -0.5em;
-  z-index: 1;
-}
-.bonusly-content {
-  background-color: #f5f5f5;
-  border-radius: 0.5em;
-  padding: 0.4em 0.8em;
-}
-.bonusly-content .panel {
+.about-bonusly .panel {
   background-color: white;
-}
-
-/* Tweaks */
-.tweaks-wrapper {
-  display: flex;
-  align-items: flex-end;
-}
-.tweaks-wrapper .avatar-wrapper {
-  margin-right: 0.5em;
+  color: black;
 }

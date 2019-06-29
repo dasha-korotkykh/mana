@@ -1,0 +1,35 @@
+/* Speech bubble */
+.content .bubble {
+  background: linear-gradient(to right, #0084ff, #00c4ff);
+  color: white;
+  border-radius: 0.25em 1em 1em 1em;
+  padding: 0.4em 0.8em;
+  margin-top: 0;
+  display: inline-block;
+  position: relative;
+  overflow: visible;
+  transition: opacity 0.2s ease-in-out;
+}
+.content .bubble.grey {
+  background: #f5f5f5;
+  color: inherit;
+}
+.content .bubble.small {
+  font-size: 0.85em;
+}
+.content .bubble.subtle {
+  opacity: 0.5;
+}
+.content .bubble.subtle:hover {
+  opacity: 1;
+}
+.content .bubble a {
+  color: inherit;
+}
+.content p + div > .bubble:first-child {
+  margin-top: -0.25rem;
+}
+.content .bubble + p,
+.content .bubble + div {
+  margin-top: 0.25rem;
+}

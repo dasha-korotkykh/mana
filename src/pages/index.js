@@ -59,130 +59,96 @@ const Index = () => (
             <div className="hero hero-lg">
               <div className="hero-body">
                 <h1 className="text-center">You're <strong>awesome and incredible</strong>!</h1>
-                <div className="welcome-wrapper">
-                  <div class="avatar-wrapper">
-                    <object class="avatar-object" data={juliaTitovaRoundedAvatar} role="img" aria-label="Julia Titova"></object>
-                  </div>
-                  <div className="welcome-content">
-                    <VideoWrapper title="You're breathtaking!">
-                      <iframe src="//coub.com/embed/1vv2dd?muted=false&autostart=false&originalSize=true&startWithHD=true" allowFullScreen frameborder="0" width="1280" height="720" allow="autoplay"></iframe>
-                    </VideoWrapper>
-                    <FacebookMessage>
-                      <strong>Hey</strong>, <span style={{ fontWeight: 600 }}>привіт</span>, привет <span className="waving-hand">👋</span>!
-                      <br />
-                      <strong>Welcome</strong> 👏!
-                      <br />
-                      The reason to gather all of you here is to let you know that you're <strong>awesome and incredible</strong> and we just really want you to not only know it but <strong>truly feel it</strong> as well. Basically, that’s it <em>(yes, you can leave)</em>, but then wouldn’t it be nice to somehow keep telling it (and cheering each other up) beyond once-in-some-time gathering?
-                    </FacebookMessage>
-                  </div>
-                </div>
+                <VideoWrapper title="You're breathtaking!">
+                  <iframe src="//coub.com/embed/1vv2dd?muted=false&autostart=false&originalSize=true&startWithHD=true" allowFullScreen frameborder="0" width="1280" height="720" allow="autoplay"></iframe>
+                </VideoWrapper>
+                <FacebookMessage>
+                  <strong>— Hey</strong>, <span style={{ fontWeight: 600 }}>привіт</span>, привет <span className="waving-hand">👋</span>!<br />The reason to gather all of you here is to let you know that you're <strong>awesome and incredible</strong> and we just really want you to not only know it but <strong>truly feel it</strong> as well. Basically, that’s it <em>(yes, you can leave)</em>, but then wouldn’t it be nice to somehow keep telling it (and cheering each other up) beyond once-in-some-time gathering?
+                </FacebookMessage>
               </div>
             </div>
             <div className="hero hero-lg">
               <div className="hero-body">
                 <h1 className="text-center">Welcome to <strong style={{ color: "#33CC66" }}>Bonusly</strong>!</h1>
-                <div className="bonusly-wrapper">
-                  <div className="avatars-wrapper">
-                    <div class="avatar-wrapper">
-                      <object class="avatar-object" data={juliaTitovaRoundedAvatar} role="img" aria-label="Julia Titova"></object>
+                <FacebookMessage background="grey">
+                  — We gave it a thought and sought the aid of <a href="https://bonus.ly/"><strong>Bonusly</strong></a>, a platform designed and used to exchange gratitude with virtual currency, which at any point could be exchanged for perks of one’s choice. Bonusly offers to:
+                  <div className="columns about-bonusly my-2">
+                    <div className="column col-4">
+                      <div class="panel">
+                        <div class="panel-header">
+                          <div className="panel-title">
+                            <h6>
+                              <strong>Promote your mis-s-s-s-sion!</strong>
+                              <span className="text-gray"><small>#1</small></span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div class="panel-body">
+                          <span style={{
+                            fontSize: "3em",
+                            float: "right",
+                            lineHeight: "1.25em"
+                          }}>😤</span>
+                          Make recognition more impactful by connecting it to your company’s core values and giving visibility to everyone’s contributions.
+                        </div>
+                      </div>
                     </div>
-                    <div class="avatar-wrapper">
-                      <object class="avatar-object" data={dashaKorotkykhRoundedAvatar} role="img" aria-label="Dasha Korotkykh"></object>
+                    <div className="column col-4">
+                      <div class="panel">
+                        <div class="panel-header">
+                          <div className="panel-title">
+                            <h6>
+                              <strong>Build stronger t-t-t-t-teams!</strong>
+                              <span className="text-gray"><small>#2</small></span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div class="panel-body">
+                          <span style={{
+                            fontSize: "3em",
+                            float: "right",
+                            lineHeight: "1.25em"
+                          }}>💩</span>
+                          Build a scalable culture of recognition by empowering everyone to recognize their peers, direct reports, and managers.
+                        </div>
+                      </div>
+                    </div>
+                    <div className="column col-4">
+                      <div class="panel">
+                        <div class="panel-header">
+                          <div className="panel-title">
+                            <h6>
+                              <strong>Boost enga-a-a-a-agement!</strong>
+                              <span className="text-gray"><small>#3</small></span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div class="panel-body">
+                          <span style={{
+                            fontSize: "3em",
+                            float: "right",
+                            lineHeight: "1.25em"
+                          }}>🚣‍</span>
+                          Encourage frequent and timely recognition by integrating with the communication tools your employees use every day.                        
+                        </div>
+                      </div>
                     </div>
                   </div>
-                  <div className="bonusly-content">
-                    <div>
-                      We gave it a thought and sought the aid of <a href="https://bonus.ly/"><strong>Bonusly</strong></a>, a platform designed and used to exchange gratitude with virtual currency, which at any point could be exchanged for perks of one’s choice. Bonusly offers to:
-                    </div>
-                    <div className="columns my-2">
-                      <div className="column col-4">
-                        <div class="panel">
-                          <div class="panel-header">
-                            <div className="panel-title">
-                              <h6>
-                                <strong>Promote your mis-s-s-s-sion!</strong>
-                                <span className="text-gray"><small>#1</small></span>
-                              </h6>
-                            </div>
-                          </div>
-                          <div class="panel-body">
-                            <span style={{
-                              fontSize: "3em",
-                              float: "right",
-                              lineHeight: "1.25em"
-                            }}>😤</span>
-                            Make recognition more impactful by connecting it to your company’s core values and giving visibility to everyone’s contributions.
-                          </div>
-                        </div>
-                      </div>
-                      <div className="column col-4">
-                        <div class="panel">
-                          <div class="panel-header">
-                            <div className="panel-title">
-                              <h6>
-                                <strong>Build stronger t-t-t-t-teams!</strong>
-                                <span className="text-gray"><small>#2</small></span>
-                              </h6>
-                            </div>
-                          </div>
-                          <div class="panel-body">
-                            <span style={{
-                              fontSize: "3em",
-                              float: "right",
-                              lineHeight: "1.25em"
-                            }}>💩</span>
-                            Build a scalable culture of recognition by empowering everyone to recognize their peers, direct reports, and managers.
-                          </div>
-                        </div>
-                      </div>
-                      <div className="column col-4">
-                        <div class="panel">
-                          <div class="panel-header">
-                            <div className="panel-title">
-                              <h6>
-                                <strong>Boost enga-a-a-a-agement!</strong>
-                                <span className="text-gray"><small>#3</small></span>
-                              </h6>
-                            </div>
-                          </div>
-                          <div class="panel-body">
-                            <span style={{
-                              fontSize: "3em",
-                              float: "right",
-                              lineHeight: "1.25em"
-                            }}>🚣‍</span>
-                            Encourage frequent and timely recognition by integrating with the communication tools your employees use every day.                        
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      Their website says many companies are happy using it, so that’s a good thing. On the other hand, here at Ricker Lyman Robotic we already have a pretty cool, engaged and coordinated team, is there any <em>actual fun</em> in integrating something like that?
-                    </div>
-                  </div>
-                </div>
+                  Their website says many companies are happy using it, so that’s a good thing. On the other hand, here at Ricker Lyman Robotic we already have a pretty cool, engaged and coordinated team, is there any <em>actual fun</em> in integrating something like that?
+                </FacebookMessage>
               </div>
             </div>
             <div className="hero hero-lg">
               <div className="hero-body">
                 <h1 className="text-center">Why yes, it can be <strong>tweaked</strong>!</h1>
-                <div className="tweaks-wrapper">
-                  <div class="avatar-wrapper">
-                    <object class="avatar-object" data={dashaKorotkykhRoundedAvatar} role="img" aria-label="Dasha Korotkykh"></object>
-                  </div>
-                  <div className="tweaks-content">
-                    <FacebookMessage>
-                      <div>
-                        Suppose every month you would get paid not only with a salary, but also with a portion of <strong>mana</strong>. Normally, <strong>mana</strong> is used to cast spells. This specific one is used to spell <strong>🙏thanks</strong> and <strong>👍thumbs-up</strong>. Yep, that’s all you can do with it — send out. When you bind your <em>raw</em> mana with gratitude or inspiration or lolz and send in the direction of another person, they receive it as a <em>bound</em> mana. And here's what's going to happen:
-                        <ol className="compact inverted">
-                          <li>You'll express yourself 🎉</li>
-                          <li>You'll encourage your peer 🤜🤛</li>
-                          <li>That lucky guy or gal not only instantly feels better, but can also use this bound <strong>mana</strong> to get gear, loot, and power-ups of his choice! 🧰</li>
-                        </ol>
-                      </div>
-                    </FacebookMessage>
-                  </div>
-                </div>
+                <FacebookMessage>
+                  — Suppose that every month you would get paid not only with a salary, but also with a portion of <strong>mana</strong>. Normally, <strong>mana</strong> is used to cast spells. This specific one is used to spell <strong>🙏thanks</strong> and <strong>👍thumbs-up</strong>. Yep, that’s all you can do with it — send out. When you bind your <em>raw</em> mana with gratitude or inspiration or lolz and send in the direction of another person, they receive it as a <em>bound</em> mana. And here's what's going to happen:
+                  <ol className="compact inverted">
+                    <li>You'll express yourself 🎉</li>
+                    <li>You'll encourage your peer 🤜🤛</li>
+                    <li>That lucky guy or gal not only instantly feels better, but can also use this bound <strong>mana</strong> to get gear, loot, and power-ups of his choice! 🧰</li>
+                  </ol>
+                </FacebookMessage>
               </div>
             </div>
             <div className="hero hero-lg">

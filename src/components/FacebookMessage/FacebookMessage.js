@@ -3,11 +3,12 @@ import React from "react";
 import classNames from "classnames";
 import "./FacebookMessage.css";
 
-const FacebookMessage = ({ children, small, subtle }) => {
+const FacebookMessage = ({ children, small, subtle, background = "blue" }) => {
   return (
     <div className={classNames("bubble", {
       "small": small,
-      "subtle": subtle
+      "subtle": subtle,
+      "grey": background === "grey"
     })}>
       {children}
     </div>
