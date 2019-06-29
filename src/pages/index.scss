@@ -237,3 +237,29 @@
   background-color: white;
   color: black;
 }
+
+/* Today */
+.today {
+  position: relative;
+  margin: 1em 0;
+  text-align: center;
+  z-index: - 1;
+}
+.today:before {
+  position: absolute;
+  top: 50%;
+  height: 1px;
+  content: "";
+  display: block;
+  width: 100%;
+  left: 0;
+  background: #eeeeee;
+  z-index: -1;
+}
+.today > span {
+  background: white;
+  padding: 0 0.5em;
+  display: inline-block;
+  font-size: 0.9em;
+  font-weight: bold;
+}

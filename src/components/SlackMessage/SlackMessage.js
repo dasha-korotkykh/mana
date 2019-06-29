@@ -15,6 +15,7 @@ const SlackMessage = ({
   replies = [],
   isBonusly = false,
   isBonuslyBonus = false,
+  labels = {},
   ...rest
 }) => {
   const repliesCount = Math.floor(Math.random() * 10) + 7;

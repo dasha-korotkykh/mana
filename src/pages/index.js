@@ -82,7 +82,7 @@ const Index = () => {
           <div className="modal-overlay" aria-label="Close" onClick={() => setModal(false)}></div>
           <div className="modal-container">
             <div className="modal-header">
-              <a href="#close" className="btn btn-clear float-right" aria-label="Close" onClick={() => setModal(false)}></a>
+              <div className="btn btn-clear float-right" aria-label="Close" onClick={() => setModal(false)}></div>
               <div className="modal-title h5">What does this even mean?</div>
             </div>
             <div className="modal-body">
@@ -201,178 +201,207 @@ const Index = () => {
               <div className="hero hero-lg">
                 <div className="hero-body">
                   <h1 className="text-center">How to <strong>send mana</strong>?</h1>
-                  <div>
+                  <h4>With <strong>Bonusly</strong></h4>
+                  <div style={{
+                    padding: "1em",
+                    border: "1px solid #eeeeee",
+                    marginBottom: "1em"
+                  }}>
+                    <em>Wireframe Bonusly website here</em>
+                  </div>
+                  <h4>On <strong>Slack</strong></h4>
+                  <div style={{
+                    padding: "1em",
+                    border: "1px solid #eeeeee"
+                  }}>
                     <h3><strong>#bonusly</strong></h3>
                     <p>You created this channel on July 1st. This is the very beginning of the <strong>#bonusly</strong> channel. Purpose: Well, obviously, this is a Bonusly channel</p>
+                    <div className="today"><span>Today</span></div>
+                    <SlackMessage
+                      senderId="dasha-korotkykh"
+                      senderName="Dasha Korotkykh"
+                      senderAvatarUrl={dashaKorotkykhAvatar}
+                      reactions={[
+                        { emoji: "🎉", count: 7 },
+                        { emoji: "🤗", count: 6 },
+                        { emoji: "😍", count: 1 },
+                        { emoji: "🍪", count: 12 },
+                        { emoji: "😛", count: 2 },
+                        { emoji: "🥠", count: 5 }
+                      ]}
+                      replies={[
+                        { name: "Vadym Drybas", avatarUrl: vadymDrybasAvatar },
+                        { name: "Vasyl Magora", avatarUrl: vasylMagoraAvatar },
+                        { name: "Ilya Kotlov", avatarUrl: ilyaKotlovAvatar },
+                        { name: "Orest Hapaliak", avatarUrl: orestHapaliakAvatar },
+                        { name: "Yurii Ostapchuk", avatarUrl: yuriiOstapchukAvatar },
+                        { name: "Bohdan Pelekh", avatarUrl: bohdanPelekhAvatar }
+                      ]}
+                    >
+                      <div>But hey! There's also a public channel in Slack called <a href="https://rickerlyman.slack.com/messages/CK7MBDXHU/"><strong>#bonusly</strong></a> that is simultaneosly a Trading Exchange Market, a Post Office, and somewhat a flood chat! So whenever you're in a mood to throw some recognition at one of your Ricker Lyman Robotic peers, just use <strong><code>/give</code></strong> command and a familiar <strong><em><code>&lt;amount&gt; &lt;recepient&gt; &lt;reason&gt; &lt;hashtag&gt;</code></em></strong> syntax to <strong>🧙‍️compose a spell</strong> and Bonusly Slack integration app will take it from there.</div>
+                    </SlackMessage>
+                    <SlackMessage
+                      senderId="bonusly"
+                      senderName="Bonusly"
+                      senderAvatarUrl={bonuslyAvatar}
+                      reactions={[
+                        { emoji: "🤭", count: 4 },
+                        { emoji: "🎅", count: 2 },
+                        { emoji: "🔥", count: 11 },
+                        { emoji: "😛", count: 1 }
+                      ]}
+                      replies={[
+                        { name: "Iryna Shvets", avatarUrl: irynaShvetsAvatar },
+                        { name: "Igor Gerasimow", avatarUrl: igorGerasimowAvatar },
+                        { name: "Galyna Makogoniuk", avatarUrl: galynaMakogoniukAvatar },
+                        { name: "Orest Hapaliak", avatarUrl: orestHapaliakAvatar },
+                        { name: "Volodymyr Tysjak", avatarUrl: volodymyrTysjakAvatar },
+                        { name: "Yurii Ostapchuk", avatarUrl: yuriiOstapchukAvatar },
+                      ]}
+                      isBonusly
+                      isBonuslyBonus
+                    >
+                      <div><strong>Iryna:</strong> <strong>+3</strong> <span className="bg-secondary">@v.magora</span> for a fascinating new beard style <a href="#"><strong>#breaking-news-this-just-in</strong></a> <a href="#"><strong>#за-гарні-очі</strong></a> <a href="#"><strong>#lacoste</strong></a></div>
+                    </SlackMessage>
+                    <SlackMessage
+                      senderId="paul-lyman"
+                      senderName="Paul Lyman"
+                      senderAvatarUrl={paulLymanAvatar}
+                      reactions={[
+                        { emoji: "😊", count: 1 },
+                        { emoji: "🤖", count: 5 },
+                        { emoji: "🐦", count: 1 },
+                        { emoji: "👀", count: 3 },
+                      ]}
+                      replies={[
+                        { name: "Kostya Lukyanenko", avatarUrl: kostyaLukyanenkoAvatar },
+                        { name: "George Barvinok", avatarUrl: georgeBarvinokAvatar },
+                        { name: "Volodymyr Kondratenko", avatarUrl: volodymyrKondratenkoAvatar },
+                      ]}
+                    >
+                      <div><strong>+10</strong> <span className="bg-secondary">@a.sirak</span> for sharing handy articles on <span className="text-primary"><strong>#rlr-general-ua</strong></span>. Sharing is caring! 😁 <span className="text-primary"><strong>#thanks</strong></span></div>
+                    </SlackMessage>
+                    <SlackMessage
+                      senderId="bonusly"
+                      senderName="Bonusly"
+                      senderAvatarUrl={bonuslyAvatar}
+                      reactions={[
+                        { emoji: "🤭", count: 4 },
+                        { emoji: "🎅", count: 2 },
+                        { emoji: "🔥", count: 11 },
+                        { emoji: "😛", count: 1 }
+                      ]}
+                      replies={[
+                        { name: "Julia Titova", avatarUrl: juliaTitovaAvatar },
+                        { name: "Andrii Sirak", avatarUrl: andriiSirakAvatar },
+                        { name: "Bogdan Shamanovskyi", avatarUrl: bogdanShamanovskyiAvatar },
+                        { name: "Kostiantyn Kravtsov", avatarUrl: kostiantynKravtsovAvatar },
+                        { name: "Alec Marin", avatarUrl: alecMarinAvatar }
+                      ]}
+                      isBonusly
+                    >
+                      <div><strong>Bohdan commented on <a href="#"><strong>Vasyl's bonus</strong></a>:</strong> <strong>+5</strong> indeed, that is reasonable, give credit where credit is due</div>
+                    </SlackMessage>
+                    <SlackMessage
+                      senderId="bohdan-pelekh"
+                      senderName="Bohdan Pelekh"
+                      senderAvatarUrl={bohdanPelekhAvatar}
+                      reactions={[
+                        { emoji: "😊", count: 1 },
+                        { emoji: "🤗", count: 6 },
+                        { emoji: "🎉", count: 7 },
+                        { emoji: "🍪", count: 12 },
+                        { emoji: "😛", count: 2 },
+                        { emoji: "🥠", count: 5 }
+                      ]}
+                      replies={[
+                        { name: "Vasyl Magora", avatarUrl: vasylMagoraAvatar },
+                        { name: "Ilya Kotlov", avatarUrl: ilyaKotlovAvatar },
+                        { name: "Orest Hapaliak", avatarUrl: orestHapaliakAvatar },
+                        { name: "Vadym Drybas", avatarUrl: vadymDrybasAvatar },
+                        { name: "Yurii Ostapchuk", avatarUrl: yuriiOstapchukAvatar },
+                        { name: "Bohdan Pelekh", avatarUrl: bohdanPelekhAvatar }
+                      ]}
+                    >
+                      <div><strong>+45</strong> and a cookie to <span className="bg-secondary">@y.ostapchuk</span>, 'cause that guy you recommended last week is getting hireeeeeed! <span className="text-primary"><strong>#referral #happyhr</strong></span></div>
+                    </SlackMessage>
+                    <SlackMessageInput>
+                      <strong>/give +5 @that_awesome_fella</strong> for <strong>tending extra time to our unit tests</strong> when we needed them the most. Here goes hashtag <strong>#staying-up-late</strong>.
+                    </SlackMessageInput>
                   </div>
-                  <SlackMessage
-                    senderId="dasha-korotkykh"
-                    senderName="Dasha Korotkykh"
-                    senderAvatarUrl={dashaKorotkykhAvatar}
-                    reactions={[
-                      { emoji: "🎉", count: 7 },
-                      { emoji: "🤗", count: 6 },
-                      { emoji: "😍", count: 1 },
-                      { emoji: "🍪", count: 12 },
-                      { emoji: "😛", count: 2 },
-                      { emoji: "🥠", count: 5 }
-                    ]}
-                    replies={[
-                      { name: "Vadym Drybas", avatarUrl: vadymDrybasAvatar },
-                      { name: "Vasyl Magora", avatarUrl: vasylMagoraAvatar },
-                      { name: "Ilya Kotlov", avatarUrl: ilyaKotlovAvatar },
-                      { name: "Orest Hapaliak", avatarUrl: orestHapaliakAvatar },
-                      { name: "Yurii Ostapchuk", avatarUrl: yuriiOstapchukAvatar },
-                      { name: "Bohdan Pelekh", avatarUrl: bohdanPelekhAvatar }
-                    ]}
-                  >
-                    <div>But hey! There's also a public channel in Slack called <a href="https://rickerlyman.slack.com/messages/CK7MBDXHU/"><strong>#bonusly</strong></a> that is simultaneosly a Trading Exchange Market, a Post Office, and somewhat a flood chat! So whenever you're in a mood to throw some recognition at one of your Ricker Lyman Robotic peers, just use <strong><code>/give</code></strong> command and a familiar <strong><em><code>&lt;amount&gt; &lt;recepient&gt; &lt;reason&gt; &lt;hashtag&gt;</code></em></strong> syntax to <strong>🧙‍️compose a spell</strong> and Bonusly Slack integration app will take it from there.</div>
-                  </SlackMessage>
-                  <SlackMessage
-                    senderId="bonusly"
-                    senderName="Bonusly"
-                    senderAvatarUrl={bonuslyAvatar}
-                    reactions={[
-                      { emoji: "🤭", count: 4 },
-                      { emoji: "🎅", count: 2 },
-                      { emoji: "🔥", count: 11 },
-                      { emoji: "😛", count: 1 }
-                    ]}
-                    replies={[
-                      { name: "Iryna Shvets", avatarUrl: irynaShvetsAvatar },
-                      { name: "Igor Gerasimow", avatarUrl: igorGerasimowAvatar },
-                      { name: "Galyna Makogoniuk", avatarUrl: galynaMakogoniukAvatar },
-                      { name: "Orest Hapaliak", avatarUrl: orestHapaliakAvatar },
-                      { name: "Volodymyr Tysjak", avatarUrl: volodymyrTysjakAvatar },
-                      { name: "Yurii Ostapchuk", avatarUrl: yuriiOstapchukAvatar },
-                    ]}
-                    isBonusly
-                    isBonuslyBonus
-                  >
-                    <div><strong>Iryna:</strong> <strong>+3</strong> <span className="bg-secondary">@v.magora</span> for a fascinating new beard style <a href="#"><strong>#breaking-news-this-just-in</strong></a> <a href="#"><strong>#за-гарні-очі</strong></a> <a href="#"><strong>#lacoste</strong></a></div>
-                  </SlackMessage>
-                  <SlackMessage
-                    senderId="paul-lyman"
-                    senderName="Paul Lyman"
-                    senderAvatarUrl={paulLymanAvatar}
-                    reactions={[
-                      { emoji: "😊", count: 1 },
-                      { emoji: "🤖", count: 5 },
-                      { emoji: "🐦", count: 1 },
-                      { emoji: "👀", count: 3 },
-                    ]}
-                    replies={[
-                      { name: "Kostya Lukyanenko", avatarUrl: kostyaLukyanenkoAvatar },
-                      { name: "George Barvinok", avatarUrl: georgeBarvinokAvatar },
-                      { name: "Volodymyr Kondratenko", avatarUrl: volodymyrKondratenkoAvatar },
-                    ]}
-                  >
-                    <div><strong>+10</strong> <span className="bg-secondary">@a.sirak</span> for sharing handy articles on <span className="text-primary"><strong>#rlr-general-ua</strong></span>. Sharing is caring! 😁 <span className="text-primary"><strong>#thanks</strong></span></div>
-                  </SlackMessage>
-                  <SlackMessage
-                    senderId="bonusly"
-                    senderName="Bonusly"
-                    senderAvatarUrl={bonuslyAvatar}
-                    reactions={[
-                      { emoji: "🤭", count: 4 },
-                      { emoji: "🎅", count: 2 },
-                      { emoji: "🔥", count: 11 },
-                      { emoji: "😛", count: 1 }
-                    ]}
-                    replies={[
-                      { name: "Julia Titova", avatarUrl: juliaTitovaAvatar },
-                      { name: "Andrii Sirak", avatarUrl: andriiSirakAvatar },
-                      { name: "Bogdan Shamanovskyi", avatarUrl: bogdanShamanovskyiAvatar },
-                      { name: "Kostiantyn Kravtsov", avatarUrl: kostiantynKravtsovAvatar },
-                      { name: "Alec Marin", avatarUrl: alecMarinAvatar }
-                    ]}
-                    isBonusly
-                  >
-                    <div><strong>Bohdan commented on <a href="#"><strong>Vasyl's bonus</strong></a>:</strong> <strong>+5</strong> indeed, that is reasonable, give credit where credit is due</div>
-                  </SlackMessage>
-                  <SlackMessage
-                    senderId="bohdan-pelekh"
-                    senderName="Bohdan Pelekh"
-                    senderAvatarUrl={bohdanPelekhAvatar}
-                    reactions={[
-                      { emoji: "😊", count: 1 },
-                      { emoji: "🤗", count: 6 },
-                      { emoji: "🎉", count: 7 },
-                      { emoji: "🍪", count: 12 },
-                      { emoji: "😛", count: 2 },
-                      { emoji: "🥠", count: 5 }
-                    ]}
-                    replies={[
-                      { name: "Vasyl Magora", avatarUrl: vasylMagoraAvatar },
-                      { name: "Ilya Kotlov", avatarUrl: ilyaKotlovAvatar },
-                      { name: "Orest Hapaliak", avatarUrl: orestHapaliakAvatar },
-                      { name: "Vadym Drybas", avatarUrl: vadymDrybasAvatar },
-                      { name: "Yurii Ostapchuk", avatarUrl: yuriiOstapchukAvatar },
-                      { name: "Bohdan Pelekh", avatarUrl: bohdanPelekhAvatar }
-                    ]}
-                  >
-                    <div><strong>+45</strong> and a cookie to <span className="bg-secondary">@y.ostapchuk</span>, 'cause that guy you recommended last week is getting hireeeeeed! <span className="text-primary"><strong>#referral #happyhr</strong></span></div>
-                  </SlackMessage>
-                  <SlackMessageInput>
-                    <strong>/give +5 @that_awesome_fella</strong> for <strong>tending extra time to our unit tests</strong> when we needed them the most. Here goes hashtag <strong>#staying-up-late</strong>.
-                  </SlackMessageInput>         
                 </div>  
               </div>
-              <div className="hero hero-lg">
-                <div className="hero-body text-center">
-                  <h1>What else?</h1>
-                  <div className="columns">
-                    <div className="column col-6">
-                      <div className="panel">
-                        <div className="panel-header">
-                          <div className="panel-title">
-                            <h4>Goddess of luck</h4><br /><img src="https://discordemoji.com/assets/emoji/Chest.gif"></img>
-                          </div>
+            </div>
+          </div>  
+        </div>
+        <div className="columns">
+          <div className="column">
+            <div className="hero hero-lg">
+              <div className="hero-body text-center">
+                <h1>But wait, <strong>there's moar</strong>!</h1>
+                <div className="columns">
+                  <div className="column col-3 col-md-6 col-sm-12 my-1">
+                    <div className="panel">
+                      <div className="panel-header">
+                        <div className="panel-title">
+                          <h4>Goddess of luck</h4><br /><img src="https://discordemoji.com/assets/emoji/Chest.gif"></img>
                         </div>
-                        <br />
-                        <span>Opens box once a month and grants <br/>3 random yous <strong>+10 mana</strong> points each</span>
-                        <br />
+                      </div>
+                      <div className="panel-body">
+                        Opens box once a month and grants 3 random yous <strong>+10 mana</strong> points each
                       </div>
                     </div>
-                    <div className="column col-6">
-                      <div className="panel">
-                        <div className="panel-header">
-                          <div className="panel-title">
-                            <h4>Clark Kent's lottery</h4><img src="https://dumielauxepices.net/sites/default/files/superman-logo-clipart-transparent-785959-3553308.gif" height="100px"></img>
-                          </div>  
-                        </div>
-                        <span>Weekly event of 1 hour bidding window, <br />after which one random participant steals <strong>jackpot</strong></span>                     
-                        <br />
+                  </div>
+                  <div className="column col-3 col-md-6 col-sm-12 my-1">
+                    <div className="panel">
+                      <div className="panel-header">
+                        <div className="panel-title">
+                          <h4>Clark Kent's lottery</h4><img src="https://dumielauxepices.net/sites/default/files/superman-logo-clipart-transparent-785959-3553308.gif" height="100px"></img>
+                        </div>  
+                      </div>
+                      <div className="panel-body">
+                        Weekly event of 1 hour bidding window, after which one random participant steals <strong>jackpot</strong>
                       </div>
                     </div>
-                    <div className="column col-6">
-                      <div className="panel">
-                        <div className="panel-header">
-                          <div className="panel-title">
-                          <h4>Sweepstake bets</h4><img src="http://www.spectacletheater.com/wp-content/uploads/stable/orbit.gif" height="70px"></img>
-                          </div>  
-                        </div>
-                        <span>Bet <strong>10 mana</strong> on literally anything — send the bid to <br />@clark.kent and add a descriptive message</span>
-                        <br />
+                  </div>
+                  <div className="column col-3 col-md-6 col-sm-12 my-1">
+                    <div className="panel">
+                      <div className="panel-header">
+                        <div className="panel-title">
+                        <h4>Sweepstake bets</h4><img src="http://www.spectacletheater.com/wp-content/uploads/stable/orbit.gif" height="70px"></img>
+                        </div>  
+                      </div>
+                      <div className="panel-body">
+                        Bet <strong>10 mana</strong> on literally anything — send the bid to @clark.kent and add a descriptive message
                       </div>
                     </div>
-                    <div className="column col-6">
-                      <div className="panel">
-                        <div className="panel-header">
-                          <div className="panel-title">
-                          <h4>Happy Working Anniversary</h4><img src="https://cdn.dribbble.com/users/48951/screenshots/1886884/cake_animation.gif" height="70px"></img>
-                          </div>  
-                        </div>
-                        <span>Goddess of retention sends <strong>+50 redeemable mana</strong> <br />every working anniversary you hit</span>                  
-                        <br />
+                  </div>
+                  <div className="column col-3 col-md-6 col-sm-12 my-1">
+                    <div className="panel">
+                      <div className="panel-header">
+                        <div className="panel-title">
+                        <h4>Happy Working Anniversary</h4><img src="https://cdn.dribbble.com/users/48951/screenshots/1886884/cake_animation.gif" height="70px"></img>
+                        </div>  
+                      </div>
+                      <div className="panel-body">
+                        Goddess of retention sends <strong>+50 redeemable mana</strong> every working anniversary you hit
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="hero hero-lg">
+            </div>
+          </div>
+        </div>
+        <div className="container grid-lg">
+          <div className="columns">
+            <div className="column">
+              <div className="hero hero-sm">
                 <div className="hero-body text-center">
-                  <h1>Have fun.</h1>
+                  <h1 style={{
+                    fontWeight: 800,
+                    margin: 0
+                  }}>Have fun! 👋</h1>
                 </div>
               </div>
               <Footer />
