@@ -183,10 +183,12 @@
   text-decoration: underline;
 }
 
-/* Bonusly */
-.about-bonusly .panel {
-  background-color: white;
-  color: black;
+/* Fullheight hero */
+.hero.hero-fh {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Main title */
@@ -196,12 +198,25 @@
   font-family: "Montserrat", sans-serif;
   font-size: 3.5em;
   line-height: 1.125em;
+  margin: 1em 0;
 }
 .main-title .what-if {
   font-weight: 300;
 }
 .main-title .thank-you {
   font-weight: 900;
+}
+
+/* Hint */
+.hint {
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+.hint:hover {
+  color: black;
 }
 
 /* Avatars */
@@ -215,4 +230,10 @@
 }
 .avatars-wrapper .avatar-wrapper:last-child {
   margin: 0;
+}
+
+/* Bonusly */
+.about-bonusly .panel {
+  background-color: white;
+  color: black;
 }
