@@ -1,4 +1,5 @@
 export { default as youAvatar } from "./you.png";
+export { default as bonuslyAvatar } from "./bonusly.png";
 export { default as alecMarinAvatar } from "./alec-marin.png";
 export { default as andriiSirakAvatar } from "./andrii-sirak.png";
 export { default as bogdanShamanovskyiAvatar } from "./bogdan-shamanovskyi.png";

@@ -19,17 +19,17 @@
 }
 
 /* Title */
-.title {
+.main-title {
   display: flex;
   flex-direction: column;
   font-family: "Montserrat", sans-serif;
   font-size: 3.5em;
   line-height: 1.125em;
 }
-.title .what-if {
+.main-title .what-if {
   font-weight: 300;
 }
-.title .thank-you {
+.main-title .thank-you {
   font-weight: 900;
 }
 
@@ -141,4 +141,136 @@
   color: #0084ff;
   font-weight: bold;
   border-radius: 100%;
+}
+
+/* Elements */
+.content hr {
+  border: none;
+  height: 2px;
+  background: lightgrey;
+  margin: 2rem 0;
+}
+.content hr.small {
+  height: 1px;
+  margin: 1rem 0;
+}
+.content hr.compact {
+  height: 1px;
+  margin: 0;
+}
+.content ol,
+.content ul {
+  margin: 0.25rem 0 0.5rem 0rem;
+}
+.content ol {
+  list-style: outside decimal;
+}
+.content ul {
+  list-style: outside disc;
+}
+.content ol li,
+.content ul li {
+  margin-bottom: 0.25rem;
+  margin-top: 0;
+}
+.content ol li:last-child,
+.content ul li:last-child {
+  margin-bottom: 0;
+}
+.content ol.compact,
+.content ol.compact li,
+.content ul.compact,
+.content ul.compact li {
+  margin: 0;
+}
+.content p {
+  margin-bottom: 0.25rem;
+}
+.content p:last-child {
+  margin-bottom: 0;
+}
+.content img {
+  max-width: 100%;
+}
+.content blockquote {
+  border-left: 0.1rem solid #dadee4;
+  margin-left: 0;
+  padding: 0 0.75rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+.content pre {
+  padding: 0.5em;
+  margin: 0.25rem 0;
+}
+.content pre:first-child {
+  margin-top: 0;
+}
+.content pre:last-child {
+  margin-bottom: 0;
+}
+.content pre code {
+  display: block;
+  padding: 0;
+  background: none;
+  font-size: 85%;
+  line-height: 1.4;
+  font-family: "SF Mono", "Segoe UI Mono", "Roboto Mono", Menlo, Courier, monospace;
+  color: inherit;
+}
+.content :not(pre) > code {
+  font-size: 85%;
+  line-height: 1.25;
+  border-radius: 0.1rem;
+  padding: 0.1rem 0.2rem;
+  background: #fcf2f2;
+  color: #d73e48;
+}
+.content a:hover code {
+  text-decoration: underline;
+}
+
+/* Welcome */
+.welcome-wrapper {
+  display: flex;
+  align-items: flex-end;
+}
+.welcome-wrapper .avatar-wrapper {
+  margin-right: 0.5em;
+}
+
+/* Bonusly */
+.bonusly-wrapper {
+  display: flex;
+  align-items: flex-end;
+}
+.bonusly-wrapper .avatars-wrapper {
+  margin-right: 0.5em;
+  display: flex;
+}
+.bonusly-wrapper .avatars-wrapper .avatar-wrapper {
+  width: 3.5em;
+  margin-right: 0em;
+  flex: 0 0 3.5em;
+}
+.bonusly-wrapper .avatars-wrapper .avatar-wrapper:first-child {
+  margin-right: -0.5em;
+  z-index: 1;
+}
+.bonusly-content {
+  background-color: #f5f5f5;
+  border-radius: 0.5em;
+  padding: 0.4em 0.8em;
+}
+.bonusly-content .panel {
+  background-color: white;
+}
+
+/* Tweaks */
+.tweaks-wrapper {
+  display: flex;
+  align-items: flex-end;
+}
+.tweaks-wrapper .avatar-wrapper {
+  margin-right: 0.5em;
 }

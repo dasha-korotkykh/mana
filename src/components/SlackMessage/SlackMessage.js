@@ -1,4 +1,5 @@
 import React from "react";
+import classNames from "classnames";
 import PropTypes from "prop-types";
 import "./SlackMessage.css";
 
@@ -12,6 +13,8 @@ const SlackMessage = ({
   children,
   reactions = [],
   replies = [],
+  isBonusly = false,
+  isBonuslyBonus = false,
   ...rest
 }) => {
   const repliesCount = Math.floor(Math.random() * 10) + 7;
@@ -23,10 +26,14 @@ const SlackMessage = ({
       <div className="message__content">
         <div className="message__meta">
           <span className="message__author">{senderName}</span>
+          {isBonusly && <span className="message__app">app</span>}
           <span className="message__timestamp">{senderTime}</span>
         </div>
-        <div className="message__text">
+        <div className={classNames("message__text", {
+          "message__text--bonusly": isBonusly
+        })}>
           {children}
+          {isBonusly && isBonuslyBonus && <div><a href="https://bonus.ly/bonuses/">Add on to this bonus?</a></div>}
         </div>
         <div className="message__reactions">
           {reactions.map(({ emoji, count }, index) => (

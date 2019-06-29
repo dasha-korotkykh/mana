@@ -1,0 +1,25 @@
+.message-input {
+  display: flex;
+  margin: 0.5em 0;
+}
+.message-input__plus {
+  padding: 0.5em;
+  font-size: 1.125em;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  border: 2px solid #AAAAAA;
+  border-radius: 0.5em 0 0 0.5em;
+}
+.message-input__plus:hover {
+  background: #56b68b;
+  color: #fff;
+  border-color: #007a5a;
+}
+.message-input__text {
+  padding: 0.25em 0.5em;
+  border-radius: 0 0.5em 0.5em 0;
+  border: 2px solid #AAAAAA;
+  border-left: none;
+  cursor: text;
+}

@@ -30,6 +30,15 @@
   font-weight: bold;
   margin-right: 0.5em;
 }
+.content .message__app {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  margin-right: 0.5rem;
+  background: lightgrey;
+  padding: 0.15em 0.3em;
+  color: grey;
+  border-radius: 3px;
+}
 .content .message__timestamp {
   color: lightgrey;
 }
@@ -110,8 +119,34 @@
 .content .message__reaction:checked:after {
   content: attr(data-after-checked);
 }
+.content .message__text a,
+.content .message__text a:link,
+.content .message__text a:visited {
+  color: #1264a3;
+}
+.content .message__text a:hover {
+  color: #0b4c8c;
+}
+.content .message__text a:focus {
+  box-shadow: 0 0 0 0.1rem rgba(11, 76, 140, 0.2);
+}
 .content .message__text p:not(:last-child) {
   margin-bottom: 0.25rem;
+}
+.content .message__text--bonusly {
+  padding-left: 0.75em;
+  position: relative;
+}
+.content .message__text--bonusly:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 2px;
+  bottom: 2px;
+  width: 4px;
+  border-radius: 8px;
+  background: #33cc66;
 }
 .content .message__scene {
   line-height: 1.25em;
