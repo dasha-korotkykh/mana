@@ -83,7 +83,7 @@ const Index = () => {
           <div className="modal-container">
             <div className="modal-header">
               <a href="#close" className="btn btn-clear float-right" aria-label="Close" onClick={() => setModal(false)}></a>
-              <div className="modal-title h5">What does it even mean?</div>
+              <div className="modal-title h5">What does this even mean?</div>
             </div>
             <div className="modal-body">
               <div className="content">
@@ -114,8 +114,8 @@ const Index = () => {
                   <h1 className="text-center">Welcome to <strong style={{ color: "#33CC66" }}>Bonusly</strong>!</h1>
                   <FacebookMessage background="grey">
                     — We gave it a thought and sought the aid of <a href="https://bonus.ly/"><strong>Bonusly</strong></a>, a platform designed and used to exchange gratitude with virtual currency, which at any point could be exchanged for perks of one’s choice. Bonusly offers to:
-                    <div className="columns about-bonusly my-2">
-                      <div className="column col-4">
+                    <div className="columns about-bonusly">
+                      <div className="column col-4 col-sm-12 my-1">
                         <div className="panel">
                           <div className="panel-header">
                             <div className="panel-title">
@@ -135,7 +135,7 @@ const Index = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="column col-4">
+                      <div className="column col-4 col-sm-12 my-1">
                         <div className="panel">
                           <div className="panel-header">
                             <div className="panel-title">
@@ -155,7 +155,7 @@ const Index = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="column col-4">
+                      <div className="column col-4 col-sm-12 my-1">
                         <div className="panel">
                           <div className="panel-header">
                             <div className="panel-title">
