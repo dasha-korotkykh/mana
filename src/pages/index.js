@@ -221,7 +221,7 @@ const Index = () => {
                         <div className="panel-header">
                           <div className="panel-title">
                             <h4>Clark Kent's lottery</h4>
-                            <img src="https://dumielauxepices.net/sites/default/files/superman-logo-clipart-transparent-785959-3553308.gif" height="100px" />
+                            <img src="https://giphy.com/gifs/hoppip-superman-television-friends-JW9OPVo9fiyfm" />
                           </div>  
                         </div>
                         <div className="panel-body">
