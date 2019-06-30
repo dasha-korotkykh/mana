@@ -283,6 +283,8 @@
 /* Bonusly button */
 .bonusly-button {
   color: #33cc66;
+  border: 1px solid;
+  background-color: lightgrey;
   border-color: #33cc66;
   outline: none;
   border-radius: 4px;
@@ -294,6 +296,9 @@
 .bonusly-button:hover {
   color: #33CC66;
   background-color: rgba(20.00%, 80.00%, 40.00%, 0.10);
+}
+.bonusly-button--basic {
+  background-color: transparent;
 }
 .bonusly-button--solid {
   color: white;

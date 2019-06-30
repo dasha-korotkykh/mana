@@ -193,17 +193,83 @@ const Index = () => {
                   </FacebookMessage>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>        
+        <div className="container">
+          <div className="columns">
+            <div className="column">
               <div className="hero hero-lg">
                 <div className="hero-body text-center">
-                  <h1>What kind of <strong>stuff</strong> can one get?<br />🥎🌶️⏱️🧦🙏🧯🧻💣</h1>
+                  <h1>But wait, <strong>there's moar</strong>!</h1>
+                  <div className="columns">
+                    <div className="column col-3 col-md-6 col-sm-12 my-1">
+                      <div className="panel">
+                        <div className="panel-header">
+                          <div className="panel-title">
+                            <h4>Goddess of luck</h4>
+                            <img src="https://discordemoji.com/assets/emoji/Chest.gif" />
+                          </div>
+                        </div>
+                        <div className="panel-body">
+                          Opens box once a month and grants 3 random yous <strong>+10 mana</strong> points each
+                        </div>
+                      </div>
+                    </div>
+                    <div className="column col-3 col-md-6 col-sm-12 my-1">
+                      <div className="panel">
+                        <div className="panel-header">
+                          <div className="panel-title">
+                            <h4>Clark Kent's lottery</h4>
+                            <img src="https://dumielauxepices.net/sites/default/files/superman-logo-clipart-transparent-785959-3553308.gif" height="100px" />
+                          </div>  
+                        </div>
+                        <div className="panel-body">
+                          Weekly event of 1 hour bidding window, after which one random participant steals <strong>jackpot</strong>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="column col-3 col-md-6 col-sm-12 my-1">
+                      <div className="panel">
+                        <div className="panel-header">
+                          <div className="panel-title">
+                            <h4>Sweepstake bets</h4>
+                            <img src="http://www.spectacletheater.com/wp-content/uploads/stable/orbit.gif" height="70px" />
+                          </div>  
+                        </div>
+                        <div className="panel-body">
+                          Bet <strong>10 mana</strong> on literally anything — send the bid to @clark.kent and add a descriptive message
+                        </div>
+                      </div>
+                    </div>
+                    <div className="column col-3 col-md-6 col-sm-12 my-1">
+                      <div className="panel">
+                        <div className="panel-header">
+                          <div className="panel-title">
+                            <h4>Happy Working Anniversary</h4>
+                            <img src="https://cdn.dribbble.com/users/48951/screenshots/1886884/cake_animation.gif" height="70px" />
+                          </div>  
+                        </div>
+                        <div className="panel-body">
+                          Goddess of retention sends <strong>+50 redeemable mana</strong> every working anniversary you hit
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>      
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container grid-lg">
+          <div className="columns">
+            <div className="column">
               <div className="hero hero-lg">
                 <div className="hero-body">
                   <h1 className="text-center">How to <strong>send mana</strong>?</h1>
                   <h4>With <a href="https://bonus.ly/"><strong>Bonusly</strong></a></h4>
                   <div className="bonusly-mockup">
-                    <h5 style={{ color: "white" }}>You have <strong>85 points</strong> to give away <FontAwesomeIcon icon={faQuestionCircle} style={{ opacity: 0.5 }} /></h5>
+                    <h5 style={{ color: "white" }}>You have <strong>85 mana points</strong> to give away <FontAwesomeIcon icon={faQuestionCircle} style={{ opacity: 0.5 }} /></h5>
                     <div style={{ display: "flex" }}>
                       <div style={{ marginRight: "1em" }}>
                         <div className="bonusly-message-input">
@@ -254,8 +320,8 @@ const Index = () => {
                       </div>
                       <div style={{ flex: "0 0 30%" }}>
                         <div className="bonusly-panel text-center">
-                          <h5 className="text-center">You have <strong>50 points</strong> to redeem</h5>
-                          <button class="bonusly-button" style={{ width: "100%" }}>Pick a reward</button>
+                          <h5 className="text-center">You have <strong>50 mana points</strong> to redeem</h5>
+                          <button class="bonusly-button bonusly-button--basic" style={{ width: "100%" }}>Pick a reward</button>
                         </div>
                         <div style={{ marginTop: "2em" }}>
                           <div><strong>Trending</strong></div>
@@ -392,72 +458,14 @@ const Index = () => {
             </div>
           </div>  
         </div>
-        <div className="columns">
-          <div className="column">
-            <div className="hero hero-lg">
-              <div className="hero-body text-center">
-                <h1>But wait, <strong>there's moar</strong>!</h1>
-                <div className="columns">
-                  <div className="column col-3 col-md-6 col-sm-12 my-1">
-                    <div className="panel">
-                      <div className="panel-header">
-                        <div className="panel-title">
-                          <h4>Goddess of luck</h4>
-                          <img src="https://discordemoji.com/assets/emoji/Chest.gif" />
-                        </div>
-                      </div>
-                      <div className="panel-body">
-                        Opens box once a month and grants 3 random yous <strong>+10 mana</strong> points each
-                      </div>
-                    </div>
-                  </div>
-                  <div className="column col-3 col-md-6 col-sm-12 my-1">
-                    <div className="panel">
-                      <div className="panel-header">
-                        <div className="panel-title">
-                          <h4>Clark Kent's lottery</h4>
-                          <img src="https://dumielauxepices.net/sites/default/files/superman-logo-clipart-transparent-785959-3553308.gif" height="100px" />
-                        </div>  
-                      </div>
-                      <div className="panel-body">
-                        Weekly event of 1 hour bidding window, after which one random participant steals <strong>jackpot</strong>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="column col-3 col-md-6 col-sm-12 my-1">
-                    <div className="panel">
-                      <div className="panel-header">
-                        <div className="panel-title">
-                          <h4>Sweepstake bets</h4>
-                          <img src="http://www.spectacletheater.com/wp-content/uploads/stable/orbit.gif" height="70px" />
-                        </div>  
-                      </div>
-                      <div className="panel-body">
-                        Bet <strong>10 mana</strong> on literally anything — send the bid to @clark.kent and add a descriptive message
-                      </div>
-                    </div>
-                  </div>
-                  <div className="column col-3 col-md-6 col-sm-12 my-1">
-                    <div className="panel">
-                      <div className="panel-header">
-                        <div className="panel-title">
-                          <h4>Happy Working Anniversary</h4>
-                          <img src="https://cdn.dribbble.com/users/48951/screenshots/1886884/cake_animation.gif" height="70px" />
-                        </div>  
-                      </div>
-                      <div className="panel-body">
-                        Goddess of retention sends <strong>+50 redeemable mana</strong> every working anniversary you hit
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="container grid-lg">
           <div className="columns">
             <div className="column">
+              <div className="hero hero-lg">
+                <div className="hero-body text-center">
+                  <h1>What kind of <strong>stuff</strong> can one get?<br />🥎🌶️⏱️🧦🙏🧯🧻💣</h1>
+                </div>
+              </div>
               <div className="hero hero-sm">
                 <div className="hero-body text-center">
                   <h1 style={{
