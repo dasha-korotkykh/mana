@@ -104,7 +104,7 @@ const Index = () => {
                   <VideoWrapper title="You're breathtaking!">
                     <iframe src="//coub.com/embed/1vv2dd?muted=false&autostart=false&originalSize=true&startWithHD=true" allowFullScreen frameBorder="0" width="1280" height="720" allow="autoplay"></iframe>
                   </VideoWrapper>
-                  <FacebookMessage>
+                  <FacebookMessage background="grey">
                     <strong>— Hey</strong>, <span style={{ fontWeight: 600 }}>привіт</span>, привет <span className="waving-hand">👋</span>!<br />The reason to gather all of you here is to let you know that you're <strong>awesome and incredible</strong> and we just really want you to not only know it but <strong>truly feel it</strong> as well. Basically, that’s it <em>(yes, you can leave)</em>, but then wouldn’t it be nice to somehow keep telling it (and cheering each other up) beyond once-in-some-time gathering?
                   </FacebookMessage>
                 </div>
@@ -180,15 +180,80 @@ const Index = () => {
                   </FacebookMessage>
                 </div>
               </div>
+              <div className="container">
+                <div className="columns">
+                  <div className="column">
+                    <div className="hero hero-lg">
+                      <div className="hero-body text-center">
+                        <h1>But wait, <strong>there's moar</strong>!</h1>
+                        <div className="columns">
+                          <div className="column col-3 col-md-6 col-sm-12 my-1">
+                            <div className="panel">
+                              <div className="panel-header">
+                                <div className="panel-title">
+                                  <h4>Goddess of luck</h4>
+                                  <img src="" />
+                                </div>
+                              </div>
+                              <div className="panel-body">
+                                Opens box once a month and grants 3 random yous <strong>+10 mana</strong> points each
+                              </div>
+                            </div>
+                          </div>
+                          <div className="column col-3 col-md-6 col-sm-12 my-1">
+                            <div className="panel">
+                              <div className="panel-header">
+                                <div className="panel-title">
+                                  <h4>Clark Kent's lottery</h4>
+                                  <img src="" />
+                                </div>  
+                              </div>
+                              <div className="panel-body">
+                                Weekly event of 1 hour bidding window, after which one random participant steals <strong>jackpot</strong>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="column col-3 col-md-6 col-sm-12 my-1">
+                            <div className="panel">
+                              <div className="panel-header">
+                                <div className="panel-title">
+                                  <h4>Sweepstake bets</h4>
+                                  <img src="" />
+                                </div>  
+                              </div>
+                              <div className="panel-body">
+                                Bet <strong>10 mana</strong> on literally anything — send the bid to @clark.kent and add a descriptive message
+                              </div>
+                            </div>
+                          </div>
+                          <div className="column col-3 col-md-6 col-sm-12 my-1">
+                            <div className="panel">
+                              <div className="panel-header">
+                                <div className="panel-title">
+                                  <h4>Happy Working Anniversary</h4>
+                                  <img src="" />
+                                </div>  
+                              </div>
+                              <div className="panel-body">
+                                Goddess of retention sends <strong>+50 redeemable mana</strong> every working anniversary you hit
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>           
               <div className="hero hero-sm hero-fh">
                 <div className="hero-body">
                   <h1 className="text-center">How does this thing <strong>work</strong>?</h1>
-                  <FacebookMessage>
-                    — Suppose that every month you would get paid not only with a salary, but also with a portion of <strong>mana</strong>. Normally, <strong>mana</strong> is used to cast spells. This specific one is used to spell <strong>🙏thanks</strong> and <strong>👍thumbs-up</strong>. Yep, that’s all you can do with it — send out. When you bind your <em>raw</em> mana with gratitude or inspiration or lolz and send in the direction of another person, they receive it as a <em>bound</em> mana. And here's what's going to happen:
+                  <FacebookMessage background="grey">
+                    — Suppose that every month you would get paid not only with a salary, but also with a portion of <strong>mana</strong>. Normally, <strong>mana</strong> is used to cast spells. This specific one is used to spell <strong>🙏thanks</strong> and <strong>👍thumbs-up</strong>. Yep, that’s all you can do with it — <strong>send out</strong>. <br /><br />When you bind your <em>raw</em> mana with gratitude or inspiration or lolz and send in the direction of another person, they receive it as a <em>redeemable</em> mana. <br /><br />And here's what's going to happen:
                     <ol className="compact inverted">
                       <li>You'll express yourself 🎉</li>
                       <li>You'll encourage your peer 🤜🤛</li>
-                      <li>That lucky guy or gal not only instantly feels better, but can also use this bound <strong>mana</strong> to get gear, loot, and power-ups of his choice! 🔫</li>
+                      <li>That lucky guy or gal not only instantly feels better, but can also use this redeemable <strong>mana</strong> to get gear, loot, and power-ups of his choice! 🔫</li>
                     </ol>
                   </FacebookMessage>
                 </div>
@@ -196,71 +261,6 @@ const Index = () => {
             </div>
           </div>
         </div>        
-        <div className="container">
-          <div className="columns">
-            <div className="column">
-              <div className="hero hero-lg">
-                <div className="hero-body text-center">
-                  <h1>But wait, <strong>there's moar</strong>!</h1>
-                  <div className="columns">
-                    <div className="column col-3 col-md-6 col-sm-12 my-1">
-                      <div className="panel">
-                        <div className="panel-header">
-                          <div className="panel-title">
-                            <h4>Goddess of luck</h4>
-                            <img src="" />
-                          </div>
-                        </div>
-                        <div className="panel-body">
-                          Opens box once a month and grants 3 random yous <strong>+10 mana</strong> points each
-                        </div>
-                      </div>
-                    </div>
-                    <div className="column col-3 col-md-6 col-sm-12 my-1">
-                      <div className="panel">
-                        <div className="panel-header">
-                          <div className="panel-title">
-                            <h4>Clark Kent's lottery</h4>
-                            <img src="" />
-                          </div>  
-                        </div>
-                        <div className="panel-body">
-                          Weekly event of 1 hour bidding window, after which one random participant steals <strong>jackpot</strong>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="column col-3 col-md-6 col-sm-12 my-1">
-                      <div className="panel">
-                        <div className="panel-header">
-                          <div className="panel-title">
-                            <h4>Sweepstake bets</h4>
-                            <img src="" />
-                          </div>  
-                        </div>
-                        <div className="panel-body">
-                          Bet <strong>10 mana</strong> on literally anything — send the bid to @clark.kent and add a descriptive message
-                        </div>
-                      </div>
-                    </div>
-                    <div className="column col-3 col-md-6 col-sm-12 my-1">
-                      <div className="panel">
-                        <div className="panel-header">
-                          <div className="panel-title">
-                            <h4>Happy Working Anniversary</h4>
-                            <img src="" />
-                          </div>  
-                        </div>
-                        <div className="panel-body">
-                          Goddess of retention sends <strong>+50 redeemable mana</strong> every working anniversary you hit
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="container grid-lg">
           <div className="columns">
             <div className="column">
@@ -333,36 +333,29 @@ const Index = () => {
                       </div>
                     </div>
                   </div>
+                  <br />
                   <h4>On <a href="https://rickerlyman.slack.com/messages/CK7MBDXHU/"><strong>Slack</strong></a></h4>
                   <div style={{
                     padding: "1em",
                     border: "1px solid #eeeeee"
                   }}>
-                    <h3><strong>#bonusly</strong></h3>
-                    <p>You created this channel on July 1st. This is the very beginning of the <strong>#bonusly</strong> channel. Purpose: Well, obviously, this is a Bonusly channel</p>
+                    <h3><strong>#rlr-bonusly</strong></h3>
+                    <p>You created this channel on July 1st. This is the very beginning of the <strong>#bonusly</strong> channel.</p>
                     <div className="today"><span>Today</span></div>
                     <SlackMessage
-                      senderId="dasha-korotkykh"
-                      senderName="Dasha Korotkykh"
-                      senderAvatarUrl={dashaKorotkykhAvatar}
+                      senderId="julia-titova"
+                      senderName="Julia Titova"
+                      senderAvatarUrl={juliaTitovaAvatar}
                       reactions={[
-                        { emoji: "🎉", count: 7 },
-                        { emoji: "🤗", count: 6 },
-                        { emoji: "😍", count: 1 },
-                        { emoji: "🍪", count: 12 },
-                        { emoji: "😛", count: 2 },
-                        { emoji: "🥠", count: 5 }
-                      ]}
-                      replies={[
-                        { name: "Vadym Drybas", avatarUrl: vadymDrybasAvatar },
-                        { name: "Vasyl Magora", avatarUrl: vasylMagoraAvatar },
-                        { name: "Ilya Kotlov", avatarUrl: ilyaKotlovAvatar },
-                        { name: "Orest Hapaliak", avatarUrl: orestHapaliakAvatar },
-                        { name: "Yurii Ostapchuk", avatarUrl: yuriiOstapchukAvatar },
-                        { name: "Bohdan Pelekh", avatarUrl: bohdanPelekhAvatar }
+                        { emoji: "👏", count: 1 },
+                        { emoji: "👏🏻", count: 3 },
+                        { emoji: "👏🏿", count: 1 },
+                        { emoji: "👏🏽", count: 2 },
+                        { emoji: "👏🏼", count: 5 },
+                        { emoji: "🎬", count: 1 }
                       ]}
                     >
-                      <div>But hey! There's also a public channel in Slack called <a href="https://rickerlyman.slack.com/messages/CK7MBDXHU/"><strong>#bonusly</strong></a> that is simultaneosly a Trading Exchange Market, a Post Office, and somewhat a flood chat! So whenever you're in a mood to throw some recognition at one of your Ricker Lyman Robotic peers, just use <strong><code>/give</code></strong> command and a familiar <strong><em><code>&lt;amount&gt; &lt;recepient&gt; &lt;reason&gt; &lt;hashtag&gt;</code></em></strong> syntax to <strong>🧙‍️compose a spell</strong> and Bonusly Slack integration app will take it from there.</div>
+                      <div>Use <strong><code>/give</code></strong> command and a familiar <strong><em><code>&lt;amount&gt; &lt;recepient&gt; &lt;reason&gt; &lt;hashtag&gt;</code></em></strong> syntax to <strong>🧙‍️compose a spell</strong> and Bonusly Slack integration app will take it from there.</div>
                     </SlackMessage>
                     <SlackMessage
                       senderId="bonusly"
@@ -374,14 +367,7 @@ const Index = () => {
                         { emoji: "🔥", count: 11 },
                         { emoji: "😛", count: 1 }
                       ]}
-                      replies={[
-                        { name: "Iryna Shvets", avatarUrl: irynaShvetsAvatar },
-                        { name: "Igor Gerasimow", avatarUrl: igorGerasimowAvatar },
-                        { name: "Galyna Makogoniuk", avatarUrl: galynaMakogoniukAvatar },
-                        { name: "Orest Hapaliak", avatarUrl: orestHapaliakAvatar },
-                        { name: "Volodymyr Tysjak", avatarUrl: volodymyrTysjakAvatar },
-                        { name: "Yurii Ostapchuk", avatarUrl: yuriiOstapchukAvatar },
-                      ]}
+
                       isBonusly
                       isBonuslyBonus
                     >
@@ -424,20 +410,13 @@ const Index = () => {
                       ]}
                       isBonusly
                     >
-                      <div><strong>Bohdan commented on <a href="#"><strong>Vasyl's bonus</strong></a>:</strong> <strong>+5</strong> indeed, that is reasonable, give credit where credit is due</div>
+                      <div><strong>Jeffrey commented on <a href="#"><strong>Vasyl's bonus</strong></a>:</strong> <strong>+5</strong> indeed, that is reasonable, give credit where credit is due</div>
                     </SlackMessage>
                     <SlackMessage
                       senderId="bohdan-pelekh"
                       senderName="Bohdan Pelekh"
                       senderAvatarUrl={bohdanPelekhAvatar}
-                      reactions={[
-                        { emoji: "😊", count: 1 },
-                        { emoji: "🤗", count: 6 },
-                        { emoji: "🎉", count: 7 },
-                        { emoji: "🍪", count: 12 },
-                        { emoji: "😛", count: 2 },
-                        { emoji: "🥠", count: 5 }
-                      ]}
+
                       replies={[
                         { name: "Vasyl Magora", avatarUrl: vasylMagoraAvatar },
                         { name: "Ilya Kotlov", avatarUrl: ilyaKotlovAvatar },
@@ -463,7 +442,7 @@ const Index = () => {
             <div className="column">
               <div className="hero hero-sm hero-fh">
                 <div className="hero-body text-center">
-                  <h1>What kind of <a href="https://bonus.ly/company/reward_categories/custom"><strong>stuff</strong></a> can one get?<br />⚾🥑⏳🧦💅🗿🔦💣</h1>
+                  <h1>What kind of <a href="https://bonus.ly/company/reward_categories/custom"><strong>stuff</strong></a> can one get?<br />⚾🥑⏳🙏🧯🧻🗿🔦💣</h1>
                 </div>
               </div>
               <div className="hero hero-sm hero-fh">
