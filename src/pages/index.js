@@ -461,12 +461,12 @@ const Index = () => {
         <div className="container grid-lg">
           <div className="columns">
             <div className="column">
-              <div className="hero hero-lg">
+              <div className="hero hero-sm hero-fh">
                 <div className="hero-body text-center">
                   <h1>What kind of <strong>stuff</strong> can one get?<br />🥎🌶️⏱️🧦🙏🧯🧻💣</h1>
                 </div>
               </div>
-              <div className="hero hero-sm">
+              <div className="hero hero-sm hero-fh">
                 <div className="hero-body text-center">
                   <h1 style={{
                     fontWeight: 800,
