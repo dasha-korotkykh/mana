@@ -182,7 +182,7 @@ const Index = () => {
               </div>
               <div className="hero hero-sm hero-fh">
                 <div className="hero-body">
-                  <h1 className="text-center">Why yes, it can be <strong>tweaked</strong>!</h1>
+                  <h1 className="text-center">How does this thing <strong>work</strong>?</h1>
                   <FacebookMessage>
                     — Suppose that every month you would get paid not only with a salary, but also with a portion of <strong>mana</strong>. Normally, <strong>mana</strong> is used to cast spells. This specific one is used to spell <strong>🙏thanks</strong> and <strong>👍thumbs-up</strong>. Yep, that’s all you can do with it — send out. When you bind your <em>raw</em> mana with gratitude or inspiration or lolz and send in the direction of another person, they receive it as a <em>bound</em> mana. And here's what's going to happen:
                     <ol className="compact inverted">
@@ -463,7 +463,7 @@ const Index = () => {
             <div className="column">
               <div className="hero hero-sm hero-fh">
                 <div className="hero-body text-center">
-                  <h1>What kind of <strong>stuff</strong> can one get?<br />🥎🌶️⏱️🧦🙏🧯🧻💣</h1>
+                  <h1>What kind of <a href="https://bonus.ly/company/reward_categories/custom"><strong>stuff</strong></a> can one get?<br />🥎🌶️⏱️🧦🙏🧯🧻💣</h1>
                 </div>
               </div>
               <div className="hero hero-sm hero-fh">
