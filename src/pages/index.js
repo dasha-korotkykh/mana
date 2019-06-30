@@ -188,7 +188,7 @@ const Index = () => {
                     <ol className="compact inverted">
                       <li>You'll express yourself 🎉</li>
                       <li>You'll encourage your peer 🤜🤛</li>
-                      <li>That lucky guy or gal not only instantly feels better, but can also use this bound <strong>mana</strong> to get gear, loot, and power-ups of his choice! 🧰</li>
+                      <li>That lucky guy or gal not only instantly feels better, but can also use this bound <strong>mana</strong> to get gear, loot, and power-ups of his choice! 🔫</li>
                     </ol>
                   </FacebookMessage>
                 </div>
@@ -208,7 +208,7 @@ const Index = () => {
                         <div className="panel-header">
                           <div className="panel-title">
                             <h4>Goddess of luck</h4>
-                            <img src="https://discordemoji.com/assets/emoji/Chest.gif" />
+                            <img src="" />
                           </div>
                         </div>
                         <div className="panel-body">
@@ -221,7 +221,7 @@ const Index = () => {
                         <div className="panel-header">
                           <div className="panel-title">
                             <h4>Clark Kent's lottery</h4>
-                            <img src="https://giphy.com/gifs/hoppip-superman-television-friends-JW9OPVo9fiyfm" />
+                            <img src="" />
                           </div>  
                         </div>
                         <div className="panel-body">
@@ -234,7 +234,7 @@ const Index = () => {
                         <div className="panel-header">
                           <div className="panel-title">
                             <h4>Sweepstake bets</h4>
-                            <img src="http://www.spectacletheater.com/wp-content/uploads/stable/orbit.gif" height="70px" />
+                            <img src="" />
                           </div>  
                         </div>
                         <div className="panel-body">
@@ -247,7 +247,7 @@ const Index = () => {
                         <div className="panel-header">
                           <div className="panel-title">
                             <h4>Happy Working Anniversary</h4>
-                            <img src="https://cdn.dribbble.com/users/48951/screenshots/1886884/cake_animation.gif" height="70px" />
+                            <img src="" />
                           </div>  
                         </div>
                         <div className="panel-body">
@@ -463,7 +463,7 @@ const Index = () => {
             <div className="column">
               <div className="hero hero-sm hero-fh">
                 <div className="hero-body text-center">
-                  <h1>What kind of <a href="https://bonus.ly/company/reward_categories/custom"><strong>stuff</strong></a> can one get?<br />🥎🌶️⏱️🧦🙏🧯🧻💣</h1>
+                  <h1>What kind of <a href="https://bonus.ly/company/reward_categories/custom"><strong>stuff</strong></a> can one get?<br />⚾🥑⏳🧦💅🗿🔦💣</h1>
                 </div>
               </div>
               <div className="hero hero-sm hero-fh">
