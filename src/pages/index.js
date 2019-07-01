@@ -187,71 +187,6 @@ const Index = () => {
             </div>
           </div>
         </div>
-        <div className="container">
-          <div className="columns">
-            <div className="column">
-              <div className="hero hero-lg theres-moar">
-                <div className="hero-body text-center">
-                  <h1>But wait, <strong>there's moar</strong>!</h1>
-                  <div className="columns">
-                    <div className="column col-3 col-md-6 col-sm-12 my-1">
-                      <div className="panel">
-                        <div className="panel-header">
-                          <div className="panel-title">
-                            <h4>Goddess of luck</h4>
-                            <img src={goddessOfLuckGif} alt="" />
-                          </div>
-                        </div>
-                        <div className="panel-body">
-                          Opens box once a month and grants 3 random yous <strong>+10 mana</strong> points each
-                        </div>
-                      </div>
-                    </div>
-                    <div className="column col-3 col-md-6 col-sm-12 my-1">
-                      <div className="panel">
-                        <div className="panel-header">
-                          <div className="panel-title">
-                            <h4>Clark Kent's lottery</h4>
-                            <img src={clarkKentLotteryGif} alt="" />
-                          </div>  
-                        </div>
-                        <div className="panel-body">
-                          Weekly event of 1 hour bidding window, after which one random participant steals <strong>jackpot</strong>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="column col-3 col-md-6 col-sm-12 my-1">
-                      <div className="panel">
-                        <div className="panel-header">
-                          <div className="panel-title">
-                            <h4>Sweepstake bets</h4>
-                            <img src={sweepstakesGif} alt="" />
-                          </div>  
-                        </div>
-                        <div className="panel-body">
-                          Bet <strong>10 mana</strong> on literally anything — send the bid to @clark.kent and add a descriptive message
-                        </div>
-                      </div>
-                    </div>
-                    <div className="column col-3 col-md-6 col-sm-12 my-1">
-                      <div className="panel">
-                        <div className="panel-header">
-                          <div className="panel-title">
-                            <h4>Happy Anniversary</h4>
-                            <img src={happyAnniversaryGif} alt="" />
-                          </div>  
-                        </div>
-                        <div className="panel-body">
-                          Goddess of retention sends <strong>+50 redeemable mana</strong> every working anniversary you hit
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="container grid-lg">
           <div className="columns">
             <div className="column">
@@ -446,6 +381,71 @@ const Index = () => {
               </div>
             </div>
           </div>  
+        </div>
+        <div className="container">
+          <div className="columns">
+            <div className="column">
+              <div className="hero hero-lg theres-moar">
+                <div className="hero-body text-center">
+                  <h1>But wait, <strong>there's moar</strong>!</h1>
+                  <div className="columns">
+                    <div className="column col-3 col-md-6 col-sm-12 my-1">
+                      <div className="panel">
+                        <div className="panel-header">
+                          <div className="panel-title">
+                            <h4>Goddess of luck</h4>
+                            <img src={goddessOfLuckGif} alt="" />
+                          </div>
+                        </div>
+                        <div className="panel-body">
+                          Opens box once a month and grants 3 random yous <strong>+10 mana</strong> points each
+                        </div>
+                      </div>
+                    </div>
+                    <div className="column col-3 col-md-6 col-sm-12 my-1">
+                      <div className="panel">
+                        <div className="panel-header">
+                          <div className="panel-title">
+                            <h4>Clark Kent's lottery</h4>
+                            <img src={clarkKentLotteryGif} alt="" />
+                          </div>  
+                        </div>
+                        <div className="panel-body">
+                          Weekly event of 1 hour bidding window, after which one random participant steals <strong>jackpot</strong>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="column col-3 col-md-6 col-sm-12 my-1">
+                      <div className="panel">
+                        <div className="panel-header">
+                          <div className="panel-title">
+                            <h4>Sweepstake bets</h4>
+                            <img src={sweepstakesGif} alt="" />
+                          </div>  
+                        </div>
+                        <div className="panel-body">
+                          Bet <strong>10 mana</strong> on literally anything — send the bid to @clark.kent and add a descriptive message
+                        </div>
+                      </div>
+                    </div>
+                    <div className="column col-3 col-md-6 col-sm-12 my-1">
+                      <div className="panel">
+                        <div className="panel-header">
+                          <div className="panel-title">
+                            <h4>Happy Anniversary</h4>
+                            <img src={happyAnniversaryGif} alt="" />
+                          </div>  
+                        </div>
+                        <div className="panel-body">
+                          Goddess of retention sends <strong>+50 redeemable mana</strong> every working anniversary you hit
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="container grid-lg">
           <div className="columns">
