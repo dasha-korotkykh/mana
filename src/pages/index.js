@@ -284,7 +284,7 @@ const Index = () => {
                               <FontAwesomeIcon icon={faHashtag} />
                             </button>
                           </div>
-                          <textarea placeholder="+5 @volodymyr.kushnir for helping me launch a marketing campaign so that we can generate new business #teamwork" />
+                          <textarea placeholder="+15 @i.kotlov for helping me launch a marketing campaign so that we can generate new business #team-to-success" />
                           <button className="bonusly-button bonusly-button--solid">Give</button>
                         </div>
                         <div className="bonusly-message">
