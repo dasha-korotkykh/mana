@@ -95,6 +95,9 @@
   font-weight: bold;
   border-radius: 100%;
 }
+.content .bubble.grey ol.inverted > li:before {
+  color: black;
+}
 
 /* Elements */
 .content hr {
