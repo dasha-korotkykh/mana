@@ -399,7 +399,7 @@ const Index = () => {
                         { name: "Volodymyr Kondratenko", avatarUrl: volodymyrKondratenkoAvatar },
                       ]}
                     >
-                      <div><strong>+10</strong> <span className="bg-secondary">@a.sirak</span> for sharing handy articles on <span className="text-primary"><strong>#rlr-general-ua</strong></span>. Sharing is caring! 😁 <span className="text-primary"><strong>#thanks</strong></span></div>
+                      <div>Someone give +10 mana to <span className="bg-secondary">@a.sirak</span> for sharing handy articles on <span className="text-primary"><strong>#rlr-general-ua</strong></span>. Sharing is caring! 😁 <span className="text-primary"><strong>#thanks #out-of-mana</strong></span></div>
                     </SlackMessage>
                     <SlackMessage
                       senderId="bonusly"
@@ -436,7 +436,7 @@ const Index = () => {
                         { name: "Bohdan Pelekh", avatarUrl: bohdanPelekhAvatar }
                       ]}
                     >
-                      <div><strong>+45</strong> and a cookie to <span className="bg-secondary">@y.ostapchuk</span>, 'cause that guy you recommended last week is getting hireeeeeed! <span className="text-primary"><strong>#referral #happyhr</strong></span></div>
+                      <div>I wish I had <strong>+45</strong> mana points and a cookie for <span className="bg-secondary">@y.ostapchuk</span>, 'cause that guy you recommended last week is getting hireeeeeed! Promise to send it on August 1st. <span className="text-primary"><strong>#referral #happyhr</strong></span></div>
                     </SlackMessage>
                     <SlackMessageInput>
                       <strong>/give +25 @that_awesome_fella</strong> for <strong>tending extra time to our unit tests</strong> when we needed them the most. Here goes hashtag <strong>#staying-up-late</strong>.
@@ -452,7 +452,7 @@ const Index = () => {
             <div className="column">
               <div className="hero hero-sm hero-fh">
                 <div className="hero-body text-center">
-                  <h1>What kind of <a href="https://bonus.ly/company/reward_categories/custom"><strong>stuff</strong></a> can one get?<br />⚾🥑⏳🙏🧯🧻🗿🔦💣</h1>
+                  <h1>What kind of <a href="https://bonus.ly/company/reward_categories/custom"><strong>stuff</strong></a> can one get?<br />⚾🥑⏳🙏🗿🔦💣</h1>
                 </div>
               </div>
               <div className="hero hero-sm hero-fh">
