@@ -34,8 +34,8 @@ import {
   bonuslyAvatar
 } from "../assets/images/avatars/slack-squared";
 import {
-  juliaTitovaAvatar as juliaTitovaRoundedAvatar,
-  dashaKorotkykhAvatar as dashaKorotkykhRoundedAvatar
+  juliaTitovaBWAvatar as juliaTitovaRoundedAvatar,
+  dashaKorotkykhBWAvatar as dashaKorotkykhRoundedAvatar
 } from "../assets/images/avatars/intro-rounded";
 import "./index.scss";
 
