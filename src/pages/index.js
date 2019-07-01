@@ -37,6 +37,10 @@ import {
   juliaTitovaBWAvatar as juliaTitovaRoundedAvatar,
   dashaKorotkykhBWAvatar as dashaKorotkykhRoundedAvatar
 } from "../assets/images/avatars/intro-rounded";
+import clarkKentLotteryGif from "../assets/images/unsorted/clark-kent-lottery.gif";
+import goddessOfLuckGif from "../assets/images/unsorted/goddess-of-luck.gif";
+import happyAnniversaryGif from "../assets/images/unsorted/happy-anniversary.gif";
+import sweepstakesGif from "../assets/images/unsorted/sweepstakes.gif";
 import "./index.scss";
 
 const Index = () => {
@@ -180,71 +184,77 @@ const Index = () => {
                   </FacebookMessage>
                 </div>
               </div>
-              <div className="container">
-                <div className="columns">
-                  <div className="column">
-                    <div className="hero hero-lg">
-                      <div className="hero-body text-center">
-                        <h1>But wait, <strong>there's moar</strong>!</h1>
-                        <div className="columns">
-                          <div className="column col-3 col-md-6 col-sm-12 my-1">
-                            <div className="panel">
-                              <div className="panel-header">
-                                <div className="panel-title">
-                                  <h4>Goddess of luck</h4>
-                                  <img src="" />
-                                </div>
-                              </div>
-                              <div className="panel-body">
-                                Opens box once a month and grants 3 random yous <strong>+10 mana</strong> points each
-                              </div>
-                            </div>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="columns">
+            <div className="column">
+              <div className="hero hero-lg theres-moar">
+                <div className="hero-body text-center">
+                  <h1>But wait, <strong>there's moar</strong>!</h1>
+                  <div className="columns">
+                    <div className="column col-3 col-md-6 col-sm-12 my-1">
+                      <div className="panel">
+                        <div className="panel-header">
+                          <div className="panel-title">
+                            <h4>Goddess of luck</h4>
+                            <img src={goddessOfLuckGif} alt="" />
                           </div>
-                          <div className="column col-3 col-md-6 col-sm-12 my-1">
-                            <div className="panel">
-                              <div className="panel-header">
-                                <div className="panel-title">
-                                  <h4>Clark Kent's lottery</h4>
-                                  <img src="" />
-                                </div>  
-                              </div>
-                              <div className="panel-body">
-                                Weekly event of 1 hour bidding window, after which one random participant steals <strong>jackpot</strong>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="column col-3 col-md-6 col-sm-12 my-1">
-                            <div className="panel">
-                              <div className="panel-header">
-                                <div className="panel-title">
-                                  <h4>Sweepstake bets</h4>
-                                  <img src="" />
-                                </div>  
-                              </div>
-                              <div className="panel-body">
-                                Bet <strong>10 mana</strong> on literally anything — send the bid to @clark.kent and add a descriptive message
-                              </div>
-                            </div>
-                          </div>
-                          <div className="column col-3 col-md-6 col-sm-12 my-1">
-                            <div className="panel">
-                              <div className="panel-header">
-                                <div className="panel-title">
-                                  <h4>Happy Working Anniversary</h4>
-                                  <img src="" />
-                                </div>  
-                              </div>
-                              <div className="panel-body">
-                                Goddess of retention sends <strong>+50 redeemable mana</strong> every working anniversary you hit
-                              </div>
-                            </div>
-                          </div>
+                        </div>
+                        <div className="panel-body">
+                          Opens box once a month and grants 3 random yous <strong>+10 mana</strong> points each
+                        </div>
+                      </div>
+                    </div>
+                    <div className="column col-3 col-md-6 col-sm-12 my-1">
+                      <div className="panel">
+                        <div className="panel-header">
+                          <div className="panel-title">
+                            <h4>Clark Kent's lottery</h4>
+                            <img src={clarkKentLotteryGif} alt="" />
+                          </div>  
+                        </div>
+                        <div className="panel-body">
+                          Weekly event of 1 hour bidding window, after which one random participant steals <strong>jackpot</strong>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="column col-3 col-md-6 col-sm-12 my-1">
+                      <div className="panel">
+                        <div className="panel-header">
+                          <div className="panel-title">
+                            <h4>Sweepstake bets</h4>
+                            <img src={sweepstakesGif} alt="" />
+                          </div>  
+                        </div>
+                        <div className="panel-body">
+                          Bet <strong>10 mana</strong> on literally anything — send the bid to @clark.kent and add a descriptive message
+                        </div>
+                      </div>
+                    </div>
+                    <div className="column col-3 col-md-6 col-sm-12 my-1">
+                      <div className="panel">
+                        <div className="panel-header">
+                          <div className="panel-title">
+                            <h4>Happy Anniversary</h4>
+                            <img src={happyAnniversaryGif} alt="" />
+                          </div>  
+                        </div>
+                        <div className="panel-body">
+                          Goddess of retention sends <strong>+50 redeemable mana</strong> every working anniversary you hit
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>           
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container grid-lg">
+          <div className="columns">
+            <div className="column">
               <div className="hero hero-sm hero-fh">
                 <div className="hero-body">
                   <h1 className="text-center">How does this thing <strong>work</strong>?</h1>
